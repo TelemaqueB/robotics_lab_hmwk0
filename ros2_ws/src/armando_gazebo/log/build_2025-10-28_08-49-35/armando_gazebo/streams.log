@@ -1,0 +1,33 @@
+[0.014s] Invoking command in '/home/telemaque/Robotics_Lab/homework_1/ros2_ws/src/armando_gazebo/build/armando_gazebo': /usr/bin/cmake /home/telemaque/Robotics_Lab/homework_1/ros2_ws/src/armando_gazebo -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/homework_1/ros2_ws/src/armando_gazebo/install/armando_gazebo
+[0.205s] -- The C compiler identification is GNU 11.4.0
+[0.361s] -- The CXX compiler identification is GNU 11.4.0
+[0.376s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.494s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.495s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.614s] -- Detecting CXX compiler ABI info - done
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.626s] -- Detecting CXX compile features
+[0.627s] -- Detecting CXX compile features - done
+[0.640s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.640s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.640s]   has asked CMake to find a package configuration file provided by
+[0.640s]   "ament_cmake", but CMake did not find one.
+[0.640s] 
+[0.640s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.640s]   any of the following names:
+[0.640s] 
+[0.640s]     ament_cmakeConfig.cmake
+[0.641s]     ament_cmake-config.cmake
+[0.641s] 
+[0.641s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.641s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.641s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.641s]   has been installed.
+[0.641s] 
+[0.641s] [0m
+[0.641s] -- Configuring incomplete, errors occurred!
+[0.641s] See also "/home/telemaque/Robotics_Lab/homework_1/ros2_ws/src/armando_gazebo/build/armando_gazebo/CMakeFiles/CMakeOutput.log".
+[0.645s] Invoked command in '/home/telemaque/Robotics_Lab/homework_1/ros2_ws/src/armando_gazebo/build/armando_gazebo' returned '1': /usr/bin/cmake /home/telemaque/Robotics_Lab/homework_1/ros2_ws/src/armando_gazebo -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/homework_1/ros2_ws/src/armando_gazebo/install/armando_gazebo
