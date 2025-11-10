@@ -1,0 +1,36 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/impedance_controller.dir/src/impedance_controller.cpp.o[0m
+In file included from [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller/include/impedance_controller/impedance_controller.hpp:27[m[K,
+                 from [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller/src/impedance_controller.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                             [01;36m[K^[m[K
+
+[100%] [32m[1mLinking CXX shared library libimpedance_controller.so[0m
+[100%] Built target impedance_controller
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller//impedance_plugin.xml
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/include/impedance_controller/impedance_controller.hpp
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/include/impedance_controller/visibility_control.h
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib/libimpedance_controller.so
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.sh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/package_run_dependencies/impedance_controller
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/parent_prefix_path/impedance_controller
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.sh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.sh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.bash
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.sh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.zsh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/packages/impedance_controller
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/impedance_controller
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig.cmake
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig-version.cmake
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.xml

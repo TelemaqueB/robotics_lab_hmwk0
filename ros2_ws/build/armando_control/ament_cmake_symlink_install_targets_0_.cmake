@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/joint_position_publisher" "TARGETS" "joint_position_publisher" "DESTINATION" "lib/armando_control")

@@ -1,0 +1,41 @@
+[0.043s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description -- -j12 -l12
+[0.150s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description' returned '0': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description -- -j12 -l12
+[0.154s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description
+[0.176s] -- Install configuration: ""
+[0.178s] -- Execute custom install script
+[0.180s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//launch/armando_display.launch.py
+[0.180s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//urdf/armando.urdf.xacro
+[0.181s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//urdf/armando_hardware_interface.xacro
+[0.182s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_legs_arbotix_m.stl
+[0.182s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_link.stl
+[0.183s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn.stl
+[0.183s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table.stl
+[0.184s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_bot.stl
+[0.185s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_rot.stl
+[0.186s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_spacer.stl
+[0.187s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/dyn.stl
+[0.189s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/f4_n_f3.stl
+[0.189s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/inertia.py
+[0.189s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/servo_hinge_flange.stl
+[0.191s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer.stl
+[0.191s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer_base.stl
+[0.192s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer_lever.stl
+[0.194s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/wrist.stl
+[0.194s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/wrist_rotate.stl
+[0.196s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//config/armando.rviz
+[0.197s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/package_run_dependencies/armando_description
+[0.197s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/parent_prefix_path/armando_description
+[0.197s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/ament_prefix_path.sh
+[0.198s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/ament_prefix_path.dsv
+[0.198s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/path.sh
+[0.198s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/path.dsv
+[0.200s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.bash
+[0.200s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.sh
+[0.200s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.zsh
+[0.200s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.dsv
+[0.201s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.dsv
+[0.224s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/packages/armando_description
+[0.232s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/cmake/armando_descriptionConfig.cmake
+[0.232s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/cmake/armando_descriptionConfig-version.cmake
+[0.234s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.xml
+[0.363s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description' returned '0': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description

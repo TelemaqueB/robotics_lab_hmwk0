@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target joint_position_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joint_position_publisher.dir/src/joint_position_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joint_position_publisher[0m
+[100%] Built target joint_position_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/armando_control/joint_position_publisher
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/package_run_dependencies/armando_control
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/parent_prefix_path/armando_control
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.sh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.bash
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.sh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.zsh
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.dsv
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/packages/armando_control
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig.cmake
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig-version.cmake
+-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.xml

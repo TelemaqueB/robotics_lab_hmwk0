@@ -1,0 +1,21 @@
+[0.044s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[0.151s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[0.155s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo
+[0.181s] -- Install configuration: ""
+[0.184s] -- Execute custom install script
+[0.186s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/package_run_dependencies/armando_gazebo
+[0.188s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/parent_prefix_path/armando_gazebo
+[0.190s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.sh
+[0.191s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.dsv
+[0.191s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.sh
+[0.192s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.dsv
+[0.194s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.bash
+[0.194s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.sh
+[0.194s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.zsh
+[0.195s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.dsv
+[0.195s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.dsv
+[0.212s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/packages/armando_gazebo
+[0.213s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig.cmake
+[0.217s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig-version.cmake
+[0.219s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.xml
+[0.231s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo

@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target ros2_kdl_node[0m
+[0.111s] [ 28%] Built target ros2_kdl_node_example
+[0.132s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o[0m
+[48.318s] [ 57%] [32m[1mLinking CXX executable ros2_kdl_node[0m
+[49.580s] [100%] Built target ros2_kdl_node
+[49.598s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[49.615s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package
+[49.627s] -- Install configuration: ""
+[49.628s] -- Execute custom install script
+[49.629s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/ros2_kdl_package/ros2_kdl_node
+[49.629s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package//launch/kdl_control.launch.py
+[49.643s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/ros2_kdl_package/ros2_kdl_node_example
+[49.643s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/package_run_dependencies/ros2_kdl_package
+[49.643s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/parent_prefix_path/ros2_kdl_package
+[49.643s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/ament_prefix_path.sh
+[49.644s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/ament_prefix_path.dsv
+[49.644s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/path.sh
+[49.644s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/path.dsv
+[49.644s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.bash
+[49.644s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.sh
+[49.644s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.zsh
+[49.644s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.dsv
+[49.645s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.dsv
+[49.657s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/packages/ros2_kdl_package
+[49.657s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/cmake/ros2_kdl_packageConfig.cmake
+[49.658s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/cmake/ros2_kdl_packageConfig-version.cmake
+[49.658s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.xml
+[49.661s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package

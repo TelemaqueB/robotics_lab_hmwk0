@@ -1,0 +1,15 @@
+[0.017s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target ros2_kdl_node[0m
+[0.108s] [ 28%] Built target ros2_kdl_node_example
+[0.129s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o[0m
+[5.190s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:30:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Iiwa_pub_sub[m[K’
+[5.191s]    30 | class [01;31m[KIiwa_pub_sub[m[K : public rclcpp::Node
+[5.191s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[5.191s] In file included from [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:24[m[K:
+[5.191s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/include/ros2_kdl_node.hpp:7:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Iiwa_pub_sub[m[K’
+[5.191s]     7 | class [01;36m[KIiwa_pub_sub[m[K : public rclcpp::Node
+[5.191s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[20.672s] gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76 : CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Erreur 1
+[20.673s] gmake[1]: *** [CMakeFiles/Makefile2:139 : CMakeFiles/ros2_kdl_node.dir/all] Erreur 2
+[20.673s] gmake: *** [Makefile:146 : all] Erreur 2
+[20.678s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12

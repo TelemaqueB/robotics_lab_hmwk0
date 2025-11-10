@@ -1,0 +1,1 @@
+/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,56 @@
+[0.067s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target ros2_kdl_node[0m
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target ros2_kdl_node_example[0m
+[0.211s] [ 14%] [32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o[0m
+[0.214s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/kdl_robot.cpp.o[0m
+[0.214s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/kdl_control.cpp.o[0m
+[0.222s] [ 71%] Built target ros2_kdl_node_example
+[5.690s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:[m[K In member function ‘[01m[KEigen::VectorXd KDLController::idCntr(KDL::Frame&, KDL::Twist&, KDL::Twist&, double, double, double, double)[m[K’:
+[5.690s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:33:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[5.690s]    33 | [01;35m[K}[m[K
+[5.691s]       | [01;35m[K^[m[K
+[5.691s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:26:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_desPos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.691s]    26 | Eigen::VectorXd KDLController::idCntr([01;35m[KKDL::Frame &_desPos[m[K,
+[5.691s]       |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[5.691s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:27:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_desVel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.691s]    27 |                                       [01;35m[KKDL::Twist &_desVel[m[K,
+[5.692s]       |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[5.692s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:28:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_desAcc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.692s]    28 |                                       [01;35m[KKDL::Twist &_desAcc[m[K,
+[5.692s]       |                                       [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[5.692s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kpp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.693s]    29 |                                       [01;35m[Kdouble _Kpp[m[K, double _Kpo,
+[5.693s]       |                                       [01;35m[K~~~~~~~^~~~[m[K
+[5.693s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kpo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.693s]    29 |                                       double _Kpp, [01;35m[Kdouble _Kpo[m[K,
+[5.693s]       |                                                    [01;35m[K~~~~~~~^~~~[m[K
+[5.693s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kdp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.694s]    30 |                                       [01;35m[Kdouble _Kdp[m[K, double _Kdo)
+[5.694s]       |                                       [01;35m[K~~~~~~~^~~~[m[K
+[5.694s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[K_Kdo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.694s]    30 |                                       double _Kdp, [01;35m[Kdouble _Kdo[m[K)
+[5.694s]       |                                                    [01;35m[K~~~~~~~^~~~[m[K
+[63.364s] [ 85%] [32m[1mLinking CXX executable ros2_kdl_node[0m
+[64.432s] [100%] Built target ros2_kdl_node
+[64.450s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[64.453s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package
+[64.463s] -- Install configuration: ""
+[64.463s] -- Execute custom install script
+[64.464s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/ros2_kdl_package/ros2_kdl_node
+[64.476s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/ros2_kdl_package/ros2_kdl_node_example
+[64.487s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/package_run_dependencies/ros2_kdl_package
+[64.498s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/parent_prefix_path/ros2_kdl_package
+[64.513s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/ament_prefix_path.sh
+[64.524s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/ament_prefix_path.dsv
+[64.535s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/path.sh
+[64.550s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/path.dsv
+[64.563s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.bash
+[64.574s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.sh
+[64.584s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.zsh
+[64.596s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.dsv
+[64.607s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.dsv
+[64.620s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/packages/ros2_kdl_package
+[64.632s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/cmake/ros2_kdl_packageConfig.cmake
+[64.644s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/cmake/ros2_kdl_packageConfig-version.cmake
+[64.657s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.xml
+[64.672s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package

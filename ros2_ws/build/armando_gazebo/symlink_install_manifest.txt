@@ -1,0 +1,15 @@
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/package_run_dependencies/armando_gazebo
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/parent_prefix_path/armando_gazebo
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.sh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.sh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.bash
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.sh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.zsh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/packages/armando_gazebo
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig.cmake
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig-version.cmake
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.xml

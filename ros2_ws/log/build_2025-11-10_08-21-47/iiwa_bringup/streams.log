@@ -1,0 +1,74 @@
+[0.026s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup
+[0.186s] -- The C compiler identification is GNU 11.4.0
+[0.336s] -- The CXX compiler identification is GNU 11.4.0
+[0.362s] -- Detecting C compiler ABI info
+[0.575s] -- Detecting C compiler ABI info - done
+[0.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.599s] -- Detecting C compile features
+[0.601s] -- Detecting C compile features - done
+[0.611s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.906s] -- Detecting CXX compile features
+[0.908s] -- Detecting CXX compile features - done
+[0.916s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.578s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.888s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.993s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.156s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.175s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.211s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.523s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.534s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.882s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.992s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.156s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.188s] -- Looking for pthread.h
+[3.389s] -- Looking for pthread.h - found
+[3.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.586s] -- Found Threads: TRUE  
+[3.733s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[3.736s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.819s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.873s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.878s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.106s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.111s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.113s] -- Added test 'lint_cmake' to check CMake code style
+[4.114s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.117s] -- Added test 'xmllint' to check XML markup files
+[4.121s] -- Configuring done
+[4.130s] -- Generating done
+[4.136s] -- Build files have been written to: /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup
+[4.162s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup' returned '0': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup
+[4.168s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup -- -j12 -l12
+[4.322s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup' returned '0': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup -- -j12 -l12
+[4.325s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup
+[4.355s] -- Install configuration: ""
+[4.357s] -- Execute custom install script
+[4.359s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa.launch.py
+[4.391s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_planning.launch.py
+[4.423s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_pose_tracking.launch.py
+[4.454s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_servoing.launch.py
+[4.486s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_test_joint_trajectory_controller.launch.py
+[4.518s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/joy_servo_teleop.launch.py
+[4.550s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/config/test_trajectory_config.yaml
+[4.582s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/ament_index/resource_index/package_run_dependencies/iiwa_bringup
+[4.614s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/ament_index/resource_index/parent_prefix_path/iiwa_bringup
+[4.647s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/ament_prefix_path.sh
+[4.680s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/ament_prefix_path.dsv
+[4.715s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/path.sh
+[4.748s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/path.dsv
+[4.779s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.bash
+[4.810s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.sh
+[4.843s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.zsh
+[4.876s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.dsv
+[4.907s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.dsv
+[4.939s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/ament_index/resource_index/packages/iiwa_bringup
+[4.971s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/cmake/iiwa_bringupConfig.cmake
+[5.002s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/cmake/iiwa_bringupConfig-version.cmake
+[5.034s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.xml
+[5.075s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup' returned '0': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup

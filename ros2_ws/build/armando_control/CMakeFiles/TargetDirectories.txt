@@ -1,0 +1,10 @@
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/uninstall.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/armando_control_uninstall.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/joint_position_publisher.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/test.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/edit_cache.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/rebuild_cache.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/list_install_components.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/install.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/install/local.dir
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control/CMakeFiles/install/strip.dir

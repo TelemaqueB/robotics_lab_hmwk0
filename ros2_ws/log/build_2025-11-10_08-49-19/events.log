@@ -1,0 +1,475 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (-) JobUnselected: {'identifier': 'armando_control'}
+[0.000312] (-) JobUnselected: {'identifier': 'armando_description'}
+[0.000337] (-) JobUnselected: {'identifier': 'armando_gazebo'}
+[0.000358] (-) JobUnselected: {'identifier': 'external_torque_sensor_broadcaster'}
+[0.000377] (-) JobUnselected: {'identifier': 'iiwa_bringup'}
+[0.000600] (-) JobUnselected: {'identifier': 'iiwa_description'}
+[0.000623] (-) JobUnselected: {'identifier': 'impedance_controller'}
+[0.000647] (ros2_kdl_package) JobQueued: {'identifier': 'ros2_kdl_package', 'dependencies': OrderedDict()}
+[0.000674] (ros2_kdl_package) JobStarted: {'identifier': 'ros2_kdl_package'}
+[0.013719] (ros2_kdl_package) JobProgress: {'identifier': 'ros2_kdl_package', 'progress': 'cmake'}
+[0.015067] (ros2_kdl_package) Command: {'cmd': ['/usr/bin/cmake', '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package', '-DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.037569] (ros2_kdl_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098447] (-) TimerEvent: {}
+[0.198953] (-) TimerEvent: {}
+[0.284733] (ros2_kdl_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299278] (ros2_kdl_package) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.299681] (-) TimerEvent: {}
+[0.359216] (ros2_kdl_package) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[0.362679] (ros2_kdl_package) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.366094] (ros2_kdl_package) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.368095] (ros2_kdl_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.397295] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.399818] (-) TimerEvent: {}
+[0.401898] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.414712] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.434911] (ros2_kdl_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.458292] (ros2_kdl_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500064] (-) TimerEvent: {}
+[0.554599] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.585653] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.587358] (ros2_kdl_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600226] (-) TimerEvent: {}
+[0.609035] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.621051] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.646477] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.658853] (ros2_kdl_package) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.674503] (ros2_kdl_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700497] (-) TimerEvent: {}
+[0.726932] (ros2_kdl_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800657] (-) TimerEvent: {}
+[0.818715] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.819217] (ros2_kdl_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/include>\n'}
+[0.819421] (ros2_kdl_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.819789] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.821271] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.822096] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.825880] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.826137] (ros2_kdl_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.826665] (ros2_kdl_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.828101] (ros2_kdl_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.850094] (ros2_kdl_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.858222] (ros2_kdl_package) StdoutLine: {'line': b'-- Build files have been written to: /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package\n'}
+[0.872789] (ros2_kdl_package) CommandEnded: {'returncode': 0}
+[0.874102] (ros2_kdl_package) JobProgress: {'identifier': 'ros2_kdl_package', 'progress': 'build'}
+[0.875598] (ros2_kdl_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/launch'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.900822] (-) TimerEvent: {}
+[0.938383] (ros2_kdl_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_kdl_node_example\x1b[0m\n'}
+[0.938839] (ros2_kdl_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_kdl_node\x1b[0m\n'}
+[0.968935] (ros2_kdl_package) StdoutLine: {'line': b'[ 28%] Built target ros2_kdl_node_example\n'}
+[0.985390] (ros2_kdl_package) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o\x1b[0m\n'}
+[1.000991] (-) TimerEvent: {}
+[1.101683] (-) TimerEvent: {}
+[1.202318] (-) TimerEvent: {}
+[1.302944] (-) TimerEvent: {}
+[1.403579] (-) TimerEvent: {}
+[1.504125] (-) TimerEvent: {}
+[1.604809] (-) TimerEvent: {}
+[1.705353] (-) TimerEvent: {}
+[1.805881] (-) TimerEvent: {}
+[1.906395] (-) TimerEvent: {}
+[2.006817] (-) TimerEvent: {}
+[2.107340] (-) TimerEvent: {}
+[2.207826] (-) TimerEvent: {}
+[2.308529] (-) TimerEvent: {}
+[2.409083] (-) TimerEvent: {}
+[2.509847] (-) TimerEvent: {}
+[2.610668] (-) TimerEvent: {}
+[2.711386] (-) TimerEvent: {}
+[2.811993] (-) TimerEvent: {}
+[2.912593] (-) TimerEvent: {}
+[3.013277] (-) TimerEvent: {}
+[3.113832] (-) TimerEvent: {}
+[3.214304] (-) TimerEvent: {}
+[3.314856] (-) TimerEvent: {}
+[3.415323] (-) TimerEvent: {}
+[3.515837] (-) TimerEvent: {}
+[3.616379] (-) TimerEvent: {}
+[3.717004] (-) TimerEvent: {}
+[3.817617] (-) TimerEvent: {}
+[3.918363] (-) TimerEvent: {}
+[4.018972] (-) TimerEvent: {}
+[4.119580] (-) TimerEvent: {}
+[4.220230] (-) TimerEvent: {}
+[4.320937] (-) TimerEvent: {}
+[4.421478] (-) TimerEvent: {}
+[4.522003] (-) TimerEvent: {}
+[4.622655] (-) TimerEvent: {}
+[4.723371] (-) TimerEvent: {}
+[4.824139] (-) TimerEvent: {}
+[4.924885] (-) TimerEvent: {}
+[5.025717] (-) TimerEvent: {}
+[5.126295] (-) TimerEvent: {}
+[5.226786] (-) TimerEvent: {}
+[5.327308] (-) TimerEvent: {}
+[5.427800] (-) TimerEvent: {}
+[5.528312] (-) TimerEvent: {}
+[5.628822] (-) TimerEvent: {}
+[5.729333] (-) TimerEvent: {}
+[5.829842] (-) TimerEvent: {}
+[5.930364] (-) TimerEvent: {}
+[6.030892] (-) TimerEvent: {}
+[6.131529] (-) TimerEvent: {}
+[6.232120] (-) TimerEvent: {}
+[6.332687] (-) TimerEvent: {}
+[6.433300] (-) TimerEvent: {}
+[6.533778] (-) TimerEvent: {}
+[6.634273] (-) TimerEvent: {}
+[6.734787] (-) TimerEvent: {}
+[6.835293] (-) TimerEvent: {}
+[6.858329] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KIiwa_pub_sub::Iiwa_pub_sub()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.858610] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:108:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktraj_duration_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_duration_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.858697] (ros2_kdl_package) StderrLine: {'line': b'  108 |             \x1b[01;31m\x1b[Ktraj_duration_\x1b[m\x1b[K = this->get_parameter("traj_duration").as_double();\n'}
+[6.858753] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.858804] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krmw_duration_t\x1b[m\x1b[K\n'}
+[6.868371] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:109:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kacc_duration_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_duration_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.868616] (ros2_kdl_package) StderrLine: {'line': b'  109 |             \x1b[01;31m\x1b[Kacc_duration_\x1b[m\x1b[K = this->get_parameter("acc_duration").as_double();\n'}
+[6.868690] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.868754] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krcl_duration_t\x1b[m\x1b[K\n'}
+[6.879798] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:110:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktotal_time_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.880038] (ros2_kdl_package) StderrLine: {'line': b'  110 |             \x1b[01;31m\x1b[Ktotal_time_\x1b[m\x1b[K = this->get_parameter("total_time").as_double();\n'}
+[6.880112] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.892126] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:111:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktrajectory_len_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktrajectory_point\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.892424] (ros2_kdl_package) StderrLine: {'line': b'  111 |             \x1b[01;31m\x1b[Ktrajectory_len_\x1b[m\x1b[K = this->get_parameter("trajectory_len").as_int();\n'}
+[6.892505] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.892570] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ktrajectory_point\x1b[m\x1b[K\n'}
+[6.899872] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:112:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KKp_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kp_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.900090] (ros2_kdl_package) StderrLine: {'line': b'  112 |             \x1b[01;31m\x1b[KKp_\x1b[m\x1b[K = this->get_parameter("Kp").as_double();\n'}
+[6.900164] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.900245] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kp_\x1b[m\x1b[K\n'}
+[6.913326] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:114:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend_position_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kjoint_positions_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.913624] (ros2_kdl_package) StderrLine: {'line': b'  114 |             \x1b[01;31m\x1b[Kend_position_\x1b[m\x1b[K(0) = this->get_parameter("end_position_x").as_double();\n'}
+[6.913731] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.913800] (ros2_kdl_package) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kjoint_positions_\x1b[m\x1b[K\n'}
+[6.935422] (-) TimerEvent: {}
+[7.035850] (-) TimerEvent: {}
+[7.136360] (-) TimerEvent: {}
+[7.236814] (-) TimerEvent: {}
+[7.337384] (-) TimerEvent: {}
+[7.437792] (-) TimerEvent: {}
+[7.538343] (-) TimerEvent: {}
+[7.638935] (-) TimerEvent: {}
+[7.739533] (-) TimerEvent: {}
+[7.839995] (-) TimerEvent: {}
+[7.940567] (-) TimerEvent: {}
+[8.041153] (-) TimerEvent: {}
+[8.141817] (-) TimerEvent: {}
+[8.242360] (-) TimerEvent: {}
+[8.343081] (-) TimerEvent: {}
+[8.443856] (-) TimerEvent: {}
+[8.544332] (-) TimerEvent: {}
+[8.644953] (-) TimerEvent: {}
+[8.745460] (-) TimerEvent: {}
+[8.846031] (-) TimerEvent: {}
+[8.946606] (-) TimerEvent: {}
+[9.047189] (-) TimerEvent: {}
+[9.147802] (-) TimerEvent: {}
+[9.248379] (-) TimerEvent: {}
+[9.348986] (-) TimerEvent: {}
+[9.449617] (-) TimerEvent: {}
+[9.550372] (-) TimerEvent: {}
+[9.650910] (-) TimerEvent: {}
+[9.751444] (-) TimerEvent: {}
+[9.852107] (-) TimerEvent: {}
+[9.952764] (-) TimerEvent: {}
+[10.053340] (-) TimerEvent: {}
+[10.153925] (-) TimerEvent: {}
+[10.254401] (-) TimerEvent: {}
+[10.354949] (-) TimerEvent: {}
+[10.455516] (-) TimerEvent: {}
+[10.556045] (-) TimerEvent: {}
+[10.656756] (-) TimerEvent: {}
+[10.757419] (-) TimerEvent: {}
+[10.858156] (-) TimerEvent: {}
+[10.958785] (-) TimerEvent: {}
+[11.059433] (-) TimerEvent: {}
+[11.160057] (-) TimerEvent: {}
+[11.260680] (-) TimerEvent: {}
+[11.361264] (-) TimerEvent: {}
+[11.461877] (-) TimerEvent: {}
+[11.562569] (-) TimerEvent: {}
+[11.663240] (-) TimerEvent: {}
+[11.763780] (-) TimerEvent: {}
+[11.864361] (-) TimerEvent: {}
+[11.964952] (-) TimerEvent: {}
+[12.065484] (-) TimerEvent: {}
+[12.166124] (-) TimerEvent: {}
+[12.266789] (-) TimerEvent: {}
+[12.367414] (-) TimerEvent: {}
+[12.468030] (-) TimerEvent: {}
+[12.568596] (-) TimerEvent: {}
+[12.669219] (-) TimerEvent: {}
+[12.769728] (-) TimerEvent: {}
+[12.870350] (-) TimerEvent: {}
+[12.971154] (-) TimerEvent: {}
+[13.072087] (-) TimerEvent: {}
+[13.172702] (-) TimerEvent: {}
+[13.273324] (-) TimerEvent: {}
+[13.373888] (-) TimerEvent: {}
+[13.474402] (-) TimerEvent: {}
+[13.575063] (-) TimerEvent: {}
+[13.675764] (-) TimerEvent: {}
+[13.776426] (-) TimerEvent: {}
+[13.877070] (-) TimerEvent: {}
+[13.977701] (-) TimerEvent: {}
+[14.078457] (-) TimerEvent: {}
+[14.179049] (-) TimerEvent: {}
+[14.279823] (-) TimerEvent: {}
+[14.380404] (-) TimerEvent: {}
+[14.481027] (-) TimerEvent: {}
+[14.581868] (-) TimerEvent: {}
+[14.682481] (-) TimerEvent: {}
+[14.783091] (-) TimerEvent: {}
+[14.884677] (-) TimerEvent: {}
+[14.985327] (-) TimerEvent: {}
+[15.085941] (-) TimerEvent: {}
+[15.186591] (-) TimerEvent: {}
+[15.287244] (-) TimerEvent: {}
+[15.388002] (-) TimerEvent: {}
+[15.488660] (-) TimerEvent: {}
+[15.589345] (-) TimerEvent: {}
+[15.689922] (-) TimerEvent: {}
+[15.790490] (-) TimerEvent: {}
+[15.891040] (-) TimerEvent: {}
+[15.991616] (-) TimerEvent: {}
+[16.092154] (-) TimerEvent: {}
+[16.192722] (-) TimerEvent: {}
+[16.293293] (-) TimerEvent: {}
+[16.393852] (-) TimerEvent: {}
+[16.494405] (-) TimerEvent: {}
+[16.594963] (-) TimerEvent: {}
+[16.695450] (-) TimerEvent: {}
+[16.796051] (-) TimerEvent: {}
+[16.896647] (-) TimerEvent: {}
+[16.997083] (-) TimerEvent: {}
+[17.097547] (-) TimerEvent: {}
+[17.198102] (-) TimerEvent: {}
+[17.298696] (-) TimerEvent: {}
+[17.399277] (-) TimerEvent: {}
+[17.499814] (-) TimerEvent: {}
+[17.600348] (-) TimerEvent: {}
+[17.700811] (-) TimerEvent: {}
+[17.801341] (-) TimerEvent: {}
+[17.901882] (-) TimerEvent: {}
+[18.002434] (-) TimerEvent: {}
+[18.102914] (-) TimerEvent: {}
+[18.203481] (-) TimerEvent: {}
+[18.304038] (-) TimerEvent: {}
+[18.404626] (-) TimerEvent: {}
+[18.505181] (-) TimerEvent: {}
+[18.605764] (-) TimerEvent: {}
+[18.706463] (-) TimerEvent: {}
+[18.807076] (-) TimerEvent: {}
+[18.907665] (-) TimerEvent: {}
+[19.008249] (-) TimerEvent: {}
+[19.108826] (-) TimerEvent: {}
+[19.209382] (-) TimerEvent: {}
+[19.309938] (-) TimerEvent: {}
+[19.410531] (-) TimerEvent: {}
+[19.511020] (-) TimerEvent: {}
+[19.611627] (-) TimerEvent: {}
+[19.712224] (-) TimerEvent: {}
+[19.812736] (-) TimerEvent: {}
+[19.913295] (-) TimerEvent: {}
+[20.013848] (-) TimerEvent: {}
+[20.114396] (-) TimerEvent: {}
+[20.214951] (-) TimerEvent: {}
+[20.315533] (-) TimerEvent: {}
+[20.416038] (-) TimerEvent: {}
+[20.516504] (-) TimerEvent: {}
+[20.617005] (-) TimerEvent: {}
+[20.717599] (-) TimerEvent: {}
+[20.818186] (-) TimerEvent: {}
+[20.918784] (-) TimerEvent: {}
+[21.019323] (-) TimerEvent: {}
+[21.119881] (-) TimerEvent: {}
+[21.220481] (-) TimerEvent: {}
+[21.321036] (-) TimerEvent: {}
+[21.421546] (-) TimerEvent: {}
+[21.522097] (-) TimerEvent: {}
+[21.622575] (-) TimerEvent: {}
+[21.723154] (-) TimerEvent: {}
+[21.823747] (-) TimerEvent: {}
+[21.924324] (-) TimerEvent: {}
+[22.024846] (-) TimerEvent: {}
+[22.125529] (-) TimerEvent: {}
+[22.226109] (-) TimerEvent: {}
+[22.326712] (-) TimerEvent: {}
+[22.427312] (-) TimerEvent: {}
+[22.527863] (-) TimerEvent: {}
+[22.628358] (-) TimerEvent: {}
+[22.729014] (-) TimerEvent: {}
+[22.829544] (-) TimerEvent: {}
+[22.930121] (-) TimerEvent: {}
+[23.030719] (-) TimerEvent: {}
+[23.131323] (-) TimerEvent: {}
+[23.231894] (-) TimerEvent: {}
+[23.332470] (-) TimerEvent: {}
+[23.433065] (-) TimerEvent: {}
+[23.533677] (-) TimerEvent: {}
+[23.634266] (-) TimerEvent: {}
+[23.734829] (-) TimerEvent: {}
+[23.835523] (-) TimerEvent: {}
+[23.936151] (-) TimerEvent: {}
+[24.036807] (-) TimerEvent: {}
+[24.137361] (-) TimerEvent: {}
+[24.237919] (-) TimerEvent: {}
+[24.338459] (-) TimerEvent: {}
+[24.438990] (-) TimerEvent: {}
+[24.539659] (-) TimerEvent: {}
+[24.640253] (-) TimerEvent: {}
+[24.740920] (-) TimerEvent: {}
+[24.841491] (-) TimerEvent: {}
+[24.942227] (-) TimerEvent: {}
+[25.042839] (-) TimerEvent: {}
+[25.143425] (-) TimerEvent: {}
+[25.243954] (-) TimerEvent: {}
+[25.344581] (-) TimerEvent: {}
+[25.445107] (-) TimerEvent: {}
+[25.545628] (-) TimerEvent: {}
+[25.646140] (-) TimerEvent: {}
+[25.746725] (-) TimerEvent: {}
+[25.847308] (-) TimerEvent: {}
+[25.947859] (-) TimerEvent: {}
+[26.048425] (-) TimerEvent: {}
+[26.149059] (-) TimerEvent: {}
+[26.249719] (-) TimerEvent: {}
+[26.350308] (-) TimerEvent: {}
+[26.450996] (-) TimerEvent: {}
+[26.551788] (-) TimerEvent: {}
+[26.652306] (-) TimerEvent: {}
+[26.752808] (-) TimerEvent: {}
+[26.853443] (-) TimerEvent: {}
+[26.954088] (-) TimerEvent: {}
+[27.054691] (-) TimerEvent: {}
+[27.155283] (-) TimerEvent: {}
+[27.255734] (-) TimerEvent: {}
+[27.356326] (-) TimerEvent: {}
+[27.456830] (-) TimerEvent: {}
+[27.557410] (-) TimerEvent: {}
+[27.657893] (-) TimerEvent: {}
+[27.758484] (-) TimerEvent: {}
+[27.859048] (-) TimerEvent: {}
+[27.959610] (-) TimerEvent: {}
+[28.060159] (-) TimerEvent: {}
+[28.160729] (-) TimerEvent: {}
+[28.261323] (-) TimerEvent: {}
+[28.361891] (-) TimerEvent: {}
+[28.462493] (-) TimerEvent: {}
+[28.563089] (-) TimerEvent: {}
+[28.663731] (-) TimerEvent: {}
+[28.764306] (-) TimerEvent: {}
+[28.864916] (-) TimerEvent: {}
+[28.965528] (-) TimerEvent: {}
+[29.066121] (-) TimerEvent: {}
+[29.166706] (-) TimerEvent: {}
+[29.267283] (-) TimerEvent: {}
+[29.367880] (-) TimerEvent: {}
+[29.468478] (-) TimerEvent: {}
+[29.569042] (-) TimerEvent: {}
+[29.669572] (-) TimerEvent: {}
+[29.770128] (-) TimerEvent: {}
+[29.870638] (-) TimerEvent: {}
+[29.971250] (-) TimerEvent: {}
+[30.071828] (-) TimerEvent: {}
+[30.172386] (-) TimerEvent: {}
+[30.272996] (-) TimerEvent: {}
+[30.373630] (-) TimerEvent: {}
+[30.474283] (-) TimerEvent: {}
+[30.574918] (-) TimerEvent: {}
+[30.675562] (-) TimerEvent: {}
+[30.776138] (-) TimerEvent: {}
+[30.876683] (-) TimerEvent: {}
+[30.977748] (-) TimerEvent: {}
+[31.078308] (-) TimerEvent: {}
+[31.178859] (-) TimerEvent: {}
+[31.279413] (-) TimerEvent: {}
+[31.379962] (-) TimerEvent: {}
+[31.480523] (-) TimerEvent: {}
+[31.581005] (-) TimerEvent: {}
+[31.681568] (-) TimerEvent: {}
+[31.782114] (-) TimerEvent: {}
+[31.882801] (-) TimerEvent: {}
+[31.983314] (-) TimerEvent: {}
+[32.083816] (-) TimerEvent: {}
+[32.184309] (-) TimerEvent: {}
+[32.284809] (-) TimerEvent: {}
+[32.385366] (-) TimerEvent: {}
+[32.485820] (-) TimerEvent: {}
+[32.586236] (-) TimerEvent: {}
+[32.686756] (-) TimerEvent: {}
+[32.787301] (-) TimerEvent: {}
+[32.887799] (-) TimerEvent: {}
+[32.988386] (-) TimerEvent: {}
+[33.088933] (-) TimerEvent: {}
+[33.189483] (-) TimerEvent: {}
+[33.289906] (-) TimerEvent: {}
+[33.390451] (-) TimerEvent: {}
+[33.491011] (-) TimerEvent: {}
+[33.591732] (-) TimerEvent: {}
+[33.692268] (-) TimerEvent: {}
+[33.792844] (-) TimerEvent: {}
+[33.893512] (-) TimerEvent: {}
+[33.994065] (-) TimerEvent: {}
+[34.094671] (-) TimerEvent: {}
+[34.195234] (-) TimerEvent: {}
+[34.295821] (-) TimerEvent: {}
+[34.396364] (-) TimerEvent: {}
+[34.496914] (-) TimerEvent: {}
+[34.597454] (-) TimerEvent: {}
+[34.698124] (-) TimerEvent: {}
+[34.798814] (-) TimerEvent: {}
+[34.899436] (-) TimerEvent: {}
+[35.000047] (-) TimerEvent: {}
+[35.100621] (-) TimerEvent: {}
+[35.201258] (-) TimerEvent: {}
+[35.301803] (-) TimerEvent: {}
+[35.402475] (-) TimerEvent: {}
+[35.503091] (-) TimerEvent: {}
+[35.603917] (-) TimerEvent: {}
+[35.704401] (-) TimerEvent: {}
+[35.804920] (-) TimerEvent: {}
+[35.905430] (-) TimerEvent: {}
+[36.005943] (-) TimerEvent: {}
+[36.106443] (-) TimerEvent: {}
+[36.206980] (-) TimerEvent: {}
+[36.307535] (-) TimerEvent: {}
+[36.408081] (-) TimerEvent: {}
+[36.508836] (-) TimerEvent: {}
+[36.609329] (-) TimerEvent: {}
+[36.709801] (-) TimerEvent: {}
+[36.810408] (-) TimerEvent: {}
+[36.911001] (-) TimerEvent: {}
+[37.011611] (-) TimerEvent: {}
+[37.112298] (-) TimerEvent: {}
+[37.212941] (-) TimerEvent: {}
+[37.313686] (-) TimerEvent: {}
+[37.414326] (-) TimerEvent: {}
+[37.514960] (-) TimerEvent: {}
+[37.615663] (-) TimerEvent: {}
+[37.716377] (-) TimerEvent: {}
+[37.817084] (-) TimerEvent: {}
+[37.917857] (-) TimerEvent: {}
+[38.018479] (-) TimerEvent: {}
+[38.119093] (-) TimerEvent: {}
+[38.219720] (-) TimerEvent: {}
+[38.320422] (-) TimerEvent: {}
+[38.421121] (-) TimerEvent: {}
+[38.521621] (-) TimerEvent: {}
+[38.622142] (-) TimerEvent: {}
+[38.722714] (-) TimerEvent: {}
+[38.823294] (-) TimerEvent: {}
+[38.923760] (-) TimerEvent: {}
+[39.024351] (-) TimerEvent: {}
+[39.124995] (-) TimerEvent: {}
+[39.225597] (-) TimerEvent: {}
+[39.326165] (-) TimerEvent: {}
+[39.426859] (-) TimerEvent: {}
+[39.527400] (-) TimerEvent: {}
+[39.529512] (ros2_kdl_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76 : CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Erreur 1\n'}
+[39.530218] (ros2_kdl_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139 : CMakeFiles/ros2_kdl_node.dir/all] Erreur 2\n'}
+[39.530488] (ros2_kdl_package) StderrLine: {'line': b'gmake: *** [Makefile:146 : all] Erreur 2\n'}
+[39.533903] (ros2_kdl_package) CommandEnded: {'returncode': 2}
+[39.551128] (ros2_kdl_package) JobEnded: {'identifier': 'ros2_kdl_package', 'rc': 2}
+[39.562378] (-) EventReactorShutdown: {}

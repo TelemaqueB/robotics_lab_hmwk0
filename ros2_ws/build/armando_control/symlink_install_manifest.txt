@@ -1,0 +1,16 @@
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/armando_control/joint_position_publisher
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/package_run_dependencies/armando_control
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/parent_prefix_path/armando_control
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.sh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.sh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.bash
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.sh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.zsh
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.dsv
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/packages/armando_control
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig.cmake
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig-version.cmake
+/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.xml

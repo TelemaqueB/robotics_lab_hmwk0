@@ -1,0 +1,72 @@
+[0.040s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/armando_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo
+[0.197s] -- The C compiler identification is GNU 11.4.0
+[0.354s] -- The CXX compiler identification is GNU 11.4.0
+[0.373s] -- Detecting C compiler ABI info
+[0.562s] -- Detecting C compiler ABI info - done
+[0.586s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.586s] -- Detecting C compile features
+[0.587s] -- Detecting C compile features - done
+[0.596s] -- Detecting CXX compiler ABI info
+[0.783s] -- Detecting CXX compiler ABI info - done
+[0.807s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.809s] -- Detecting CXX compile features - done
+[0.815s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.212s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.421s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.475s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.479s] -- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[1.597s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.610s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.632s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.665s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.711s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.835s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.842s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.082s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.163s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.274s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.298s] -- Looking for pthread.h
+[2.476s] -- Looking for pthread.h - found
+[2.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.668s] -- Found Threads: TRUE  
+[2.834s] -- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[3.019s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.226s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.235s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[4.238s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.558s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.559s] -- Configured cppcheck include dirs: 
+[4.559s] -- Configured cppcheck exclude dirs and/or files: 
+[4.563s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.568s] -- Added test 'lint_cmake' to check CMake code style
+[4.572s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.588s] -- Added test 'uncrustify' to check C / C++ code style
+[4.588s] -- Configured uncrustify additional arguments: 
+[4.592s] -- Added test 'xmllint' to check XML markup files
+[4.598s] -- Configuring done
+[4.616s] -- Generating done
+[4.627s] -- Build files have been written to: /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo
+[4.671s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/armando_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo
+[4.679s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[4.831s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[4.835s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo
+[4.864s] -- Install configuration: ""
+[4.865s] -- Execute custom install script
+[4.867s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/package_run_dependencies/armando_gazebo
+[4.900s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/parent_prefix_path/armando_gazebo
+[4.934s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.sh
+[4.966s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.dsv
+[5.000s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.sh
+[5.032s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.dsv
+[5.066s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.bash
+[5.100s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.sh
+[5.134s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.zsh
+[5.168s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.dsv
+[5.203s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.dsv
+[5.238s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/packages/armando_gazebo
+[5.271s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig.cmake
+[5.306s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig-version.cmake
+[5.338s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.xml
+[5.381s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo

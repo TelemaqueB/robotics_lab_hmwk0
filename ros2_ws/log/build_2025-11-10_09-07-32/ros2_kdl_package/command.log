@@ -1,0 +1,4 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package

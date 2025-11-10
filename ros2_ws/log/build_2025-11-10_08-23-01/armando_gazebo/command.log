@@ -1,0 +1,4 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo

@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target ros2_kdl_node[0m
+[0.102s] [ 28%] Built target ros2_kdl_node_example
+[0.121s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o[0m
+[4.699s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:[m[K In constructor ‘[01m[KIiwa_pub_sub::Iiwa_pub_sub()[m[K’:
+[4.699s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraj_duration_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_duration_t[m[K’?
+[4.699s]   108 |             [01;31m[Ktraj_duration_[m[K = this->get_parameter("traj_duration").as_double();
+[4.700s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.700s]       |             [32m[Krmw_duration_t[m[K
+[4.710s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_duration_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_duration_t[m[K’?
+[4.710s]   109 |             [01;31m[Kacc_duration_[m[K = this->get_parameter("acc_duration").as_double();
+[4.710s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[4.710s]       |             [32m[Krcl_duration_t[m[K
+[4.720s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:110:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_time_[m[K’ was not declared in this scope
+[4.720s]   110 |             [01;31m[Ktotal_time_[m[K = this->get_parameter("total_time").as_double();
+[4.721s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.731s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:111:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_len_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrajectory_point[m[K’?
+[4.731s]   111 |             [01;31m[Ktrajectory_len_[m[K = this->get_parameter("trajectory_len").as_int();
+[4.731s]       |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.731s]       |             [32m[Ktrajectory_point[m[K
+[4.738s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:112:13:[m[K [01;31m[Kerror: [m[K‘[01m[KKp_[m[K’ was not declared in this scope; did you mean ‘[01m[Kp_[m[K’?
+[4.738s]   112 |             [01;31m[KKp_[m[K = this->get_parameter("Kp").as_double();
+[4.738s]       |             [01;31m[K^~~[m[K
+[4.738s]       |             [32m[Kp_[m[K
+[4.749s] [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_position_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_positions_[m[K’?
+[4.749s]   114 |             [01;31m[Kend_position_[m[K(0) = this->get_parameter("end_position_x").as_double();
+[4.749s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[4.749s]       |             [32m[Kjoint_positions_[m[K
+[33.755s] gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76 : CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Erreur 1
+[33.755s] gmake[1]: *** [CMakeFiles/Makefile2:139 : CMakeFiles/ros2_kdl_node.dir/all] Erreur 2
+[33.756s] gmake: *** [Makefile:146 : all] Erreur 2
+[33.760s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12

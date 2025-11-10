@@ -1,0 +1,24 @@
+[0.042s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target joint_position_publisher[0m
+[0.206s] [100%] Built target joint_position_publisher
+[0.407s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+[0.411s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control
+[0.457s] -- Install configuration: ""
+[0.458s] -- Execute custom install script
+[0.460s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/armando_control/joint_position_publisher
+[0.463s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/package_run_dependencies/armando_control
+[0.465s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/parent_prefix_path/armando_control
+[0.466s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.sh
+[0.466s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.dsv
+[0.467s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.sh
+[0.467s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.dsv
+[0.468s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.bash
+[0.468s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.sh
+[0.468s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.zsh
+[0.469s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.dsv
+[0.469s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.dsv
+[0.498s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/packages/armando_control
+[0.499s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig.cmake
+[0.500s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig-version.cmake
+[0.504s] -- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.xml
+[0.565s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control

@@ -1,0 +1,1 @@
+/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description/ament_cmake_environment_hooks/local_setup.zsh

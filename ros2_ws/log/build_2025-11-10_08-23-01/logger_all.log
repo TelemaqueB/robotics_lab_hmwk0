@@ -1,0 +1,669 @@
+[0.126s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.126s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77608f827bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77608f90c0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77608f90c0a0>>)
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.312s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/telemaque/Robotics_Lab/ros2_ws'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_control) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/armando_control' with type 'ros.ament_cmake' and name 'armando_control'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_description-main) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/armando_description-main' with type 'ros.ament_cmake' and name 'armando_description'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/armando_gazebo) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/armando_gazebo' with type 'ros.ament_cmake' and name 'armando_gazebo'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_bringup) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_iiwa/iiwa_bringup' with type 'ros.ament_cmake' and name 'iiwa_bringup'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/admittance_controller) ignored
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster' with type 'ros.ament_cmake' and name 'external_torque_sensor_broadcaster'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_controllers/impedance_controller) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_iiwa/iiwa_controllers/impedance_controller' with type 'ros.ament_cmake' and name 'impedance_controller'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_description) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_iiwa/iiwa_description' with type 'ros.ament_cmake' and name 'iiwa_description'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_hardware) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_moveit2) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_iiwa/iiwa_sunrise) ignored
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_kdl_package) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_kdl_package' with type 'ros.ament_cmake' and name 'ros2_kdl_package'
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.406s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.406s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.406s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.406s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.408s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/telemaque/Robotics_Lab/ros2_ws/install
+[0.409s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 335 installed packages in /opt/ros/humble
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'armando_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_control', 'symlink_install': True, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'armando_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_description-main', 'symlink_install': True, 'test_result_base': None}
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.469s] Level 5:colcon.colcon_core.verb:set package 'armando_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.469s] DEBUG:colcon.colcon_core.verb:Building package 'armando_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'external_torque_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'external_torque_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster', 'symlink_install': True, 'test_result_base': None}
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_target' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.470s] Level 5:colcon.colcon_core.verb:set package 'iiwa_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.470s] DEBUG:colcon.colcon_core.verb:Building package 'iiwa_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_description', 'symlink_install': True, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'impedance_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'impedance_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller', 'symlink_install': True, 'test_result_base': None}
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'cmake_target' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.471s] Level 5:colcon.colcon_core.verb:set package 'ros2_kdl_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.471s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_kdl_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package', 'symlink_install': True, 'test_result_base': None}
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_target' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.472s] Level 5:colcon.colcon_core.verb:set package 'iiwa_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.472s] DEBUG:colcon.colcon_core.verb:Building package 'iiwa_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup', 'merge_install': False, 'path': '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.472s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.474s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_description' with build type 'ament_cmake'
+[0.474s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_description'
+[0.477s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_control' with build type 'ament_cmake'
+[0.481s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_control'
+[0.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.485s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_description-main' with build type 'ament_cmake'
+[0.485s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_description-main'
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_gazebo' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/armando_gazebo'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.496s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster' with build type 'ament_cmake'
+[0.496s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/external_torque_sensor_broadcaster'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller' with build type 'ament_cmake'
+[0.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller'
+[0.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package' with build type 'ament_cmake'
+[0.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package'
+[0.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.509s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description -- -j12 -l12
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description -- -j12 -l12
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster -- -j12 -l12
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller -- -j12 -l12
+[0.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[0.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description -- -j12 -l12
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description
+[0.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description -- -j12 -l12
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo -- -j12 -l12
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_description)
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description' for CMake module files
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description' for CMake config files
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_description', 'cmake_prefix_path')
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.sh'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/bin'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/lib/pkgconfig/iiwa_description.pc'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/lib/python3.10/site-packages'
+[0.751s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/bin'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.dsv'
+[0.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.sh'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.bash'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.zsh'
+[0.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/colcon-core/packages/iiwa_description)
+[0.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_description)
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description' for CMake module files
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description' for CMake config files
+[0.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_description', 'cmake_prefix_path')
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.dsv'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/hook/cmake_prefix_path.sh'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/bin'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/lib/pkgconfig/iiwa_description.pc'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/lib/python3.10/site-packages'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/bin'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.dsv'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.sh'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.bash'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.zsh'
+[0.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/colcon-core/packages/iiwa_description)
+[0.786s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_bringup' with build type 'ament_cmake'
+[0.787s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_bringup'
+[0.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armando_description)
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description' for CMake module files
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description' for CMake config files
+[0.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('armando_description', 'cmake_prefix_path')
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/hook/cmake_prefix_path.ps1'
+[0.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/hook/cmake_prefix_path.dsv'
+[0.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/hook/cmake_prefix_path.sh'
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/bin'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/lib/pkgconfig/armando_description.pc'
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/lib/python3.10/site-packages'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/bin'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.sh'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.bash'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/colcon-core/packages/armando_description)
+[0.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armando_description)
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description' for CMake module files
+[0.826s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description' for CMake config files
+[0.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('armando_description', 'cmake_prefix_path')
+[0.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/hook/cmake_prefix_path.ps1'
+[0.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/hook/cmake_prefix_path.dsv'
+[0.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/hook/cmake_prefix_path.sh'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/bin'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/lib/pkgconfig/armando_description.pc'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/lib/python3.10/site-packages'
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/bin'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.ps1'
+[0.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.dsv'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.sh'
+[0.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.bash'
+[0.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.zsh'
+[0.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/colcon-core/packages/armando_description)
+[0.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armando_gazebo)
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo' for CMake module files
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo' for CMake config files
+[0.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('armando_gazebo', 'cmake_prefix_path')
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/hook/cmake_prefix_path.ps1'
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/hook/cmake_prefix_path.dsv'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/hook/cmake_prefix_path.sh'
+[0.853s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/bin'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/lib/pkgconfig/armando_gazebo.pc'
+[0.854s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/lib/python3.10/site-packages'
+[0.855s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/bin'
+[0.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.ps1'
+[0.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.sh'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.bash'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.zsh'
+[0.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/colcon-core/packages/armando_gazebo)
+[0.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armando_gazebo)
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo' for CMake module files
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo' for CMake config files
+[0.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('armando_gazebo', 'cmake_prefix_path')
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/hook/cmake_prefix_path.ps1'
+[0.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/hook/cmake_prefix_path.dsv'
+[0.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/hook/cmake_prefix_path.sh'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/bin'
+[0.871s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/lib/pkgconfig/armando_gazebo.pc'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/lib/python3.10/site-packages'
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/bin'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.ps1'
+[0.875s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.dsv'
+[0.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.sh'
+[0.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.bash'
+[0.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.zsh'
+[0.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/colcon-core/packages/armando_gazebo)
+[0.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster -- -j12 -l12
+[0.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup -- -j12 -l12
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup' returned '0': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup -- -j12 -l12
+[1.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup
+[1.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_bringup)
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup' for CMake module files
+[1.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup' returned '0': CMAKE_PREFIX_PATH=/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup' for CMake config files
+[1.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_bringup', 'cmake_prefix_path')
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/bin'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/lib/pkgconfig/iiwa_bringup.pc'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/lib/python3.10/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/bin'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.bash'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.zsh'
+[1.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/colcon-core/packages/iiwa_bringup)
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iiwa_bringup)
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup' for CMake module files
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup' for CMake config files
+[1.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('iiwa_bringup', 'cmake_prefix_path')
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/hook/cmake_prefix_path.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/bin'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/lib/pkgconfig/iiwa_bringup.pc'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/lib/python3.10/site-packages'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/bin'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.bash'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.zsh'
+[1.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/colcon-core/packages/iiwa_bringup)
+[1.543s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(external_torque_sensor_broadcaster)
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster' for CMake module files
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster' for CMake config files
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'cmake_prefix_path')
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.sh'
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib'
+[1.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'ld_library_path_lib')
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.ps1'
+[1.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.dsv'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.sh'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib/pkgconfig/external_torque_sensor_broadcaster.pc'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib/python3.10/site-packages'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.ps1'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.sh'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.zsh'
+[1.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/colcon-core/packages/external_torque_sensor_broadcaster)
+[1.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(external_torque_sensor_broadcaster)
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster' for CMake module files
+[1.575s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster' for CMake config files
+[1.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'cmake_prefix_path')
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.ps1'
+[1.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.dsv'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/cmake_prefix_path.sh'
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib'
+[1.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('external_torque_sensor_broadcaster', 'ld_library_path_lib')
+[1.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.dsv'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/hook/ld_library_path_lib.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib/pkgconfig/external_torque_sensor_broadcaster.pc'
+[1.590s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib/python3.10/site-packages'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/bin'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.sh'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.zsh'
+[1.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/colcon-core/packages/external_torque_sensor_broadcaster)
+[21.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller -- -j12 -l12
+[21.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller
+[22.652s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(impedance_controller)
+[22.653s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller' for CMake module files
+[22.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller
+[22.656s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller' for CMake config files
+[22.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'cmake_prefix_path')
+[22.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.ps1'
+[22.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.dsv'
+[22.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.sh'
+[22.662s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib'
+[22.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'ld_library_path_lib')
+[22.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.ps1'
+[22.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.dsv'
+[22.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.sh'
+[22.666s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/bin'
+[22.667s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib/pkgconfig/impedance_controller.pc'
+[22.667s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib/python3.10/site-packages'
+[22.668s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/bin'
+[22.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.ps1'
+[22.671s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv'
+[22.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.sh'
+[22.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.bash'
+[22.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.zsh'
+[22.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/colcon-core/packages/impedance_controller)
+[22.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(impedance_controller)
+[22.679s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller' for CMake module files
+[22.680s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller' for CMake config files
+[22.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'cmake_prefix_path')
+[22.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.ps1'
+[22.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.dsv'
+[22.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/cmake_prefix_path.sh'
+[22.687s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib'
+[22.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('impedance_controller', 'ld_library_path_lib')
+[22.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.ps1'
+[22.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.dsv'
+[22.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/hook/ld_library_path_lib.sh'
+[22.693s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/bin'
+[22.694s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib/pkgconfig/impedance_controller.pc'
+[22.694s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib/python3.10/site-packages'
+[22.696s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/bin'
+[22.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.ps1'
+[22.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv'
+[22.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.sh'
+[22.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.bash'
+[22.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.zsh'
+[22.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/colcon-core/packages/impedance_controller)
+[26.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+[26.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control
+[27.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armando_control)
+[27.126s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control' for CMake module files
+[27.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control
+[27.128s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control' for CMake config files
+[27.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('armando_control', 'cmake_prefix_path')
+[27.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/hook/cmake_prefix_path.ps1'
+[27.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/hook/cmake_prefix_path.dsv'
+[27.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/hook/cmake_prefix_path.sh'
+[27.135s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib'
+[27.135s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/bin'
+[27.135s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/pkgconfig/armando_control.pc'
+[27.136s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/python3.10/site-packages'
+[27.137s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/bin'
+[27.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.ps1'
+[27.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.dsv'
+[27.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.sh'
+[27.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.bash'
+[27.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.zsh'
+[27.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/colcon-core/packages/armando_control)
+[27.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(armando_control)
+[27.148s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control' for CMake module files
+[27.149s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control' for CMake config files
+[27.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('armando_control', 'cmake_prefix_path')
+[27.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/hook/cmake_prefix_path.ps1'
+[27.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/hook/cmake_prefix_path.dsv'
+[27.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/hook/cmake_prefix_path.sh'
+[27.155s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib'
+[27.155s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/bin'
+[27.155s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/pkgconfig/armando_control.pc'
+[27.156s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/python3.10/site-packages'
+[27.157s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/bin'
+[27.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.ps1'
+[27.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.dsv'
+[27.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.sh'
+[27.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.bash'
+[27.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.zsh'
+[27.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/colcon-core/packages/armando_control)
+[64.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package -- -j12 -l12
+[64.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package
+[65.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_kdl_package)
+[65.180s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package' for CMake module files
+[65.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package
+[65.182s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package' for CMake config files
+[65.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_kdl_package', 'cmake_prefix_path')
+[65.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/hook/cmake_prefix_path.ps1'
+[65.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/hook/cmake_prefix_path.dsv'
+[65.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/hook/cmake_prefix_path.sh'
+[65.185s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib'
+[65.185s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/bin'
+[65.185s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/pkgconfig/ros2_kdl_package.pc'
+[65.185s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/python3.10/site-packages'
+[65.185s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/bin'
+[65.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.ps1'
+[65.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.dsv'
+[65.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.sh'
+[65.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.bash'
+[65.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.zsh'
+[65.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/colcon-core/packages/ros2_kdl_package)
+[65.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_kdl_package)
+[65.189s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package' for CMake module files
+[65.189s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package' for CMake config files
+[65.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_kdl_package', 'cmake_prefix_path')
+[65.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/hook/cmake_prefix_path.ps1'
+[65.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/hook/cmake_prefix_path.dsv'
+[65.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/hook/cmake_prefix_path.sh'
+[65.191s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib'
+[65.192s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/bin'
+[65.192s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/pkgconfig/ros2_kdl_package.pc'
+[65.192s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/python3.10/site-packages'
+[65.192s] Level 1:colcon.colcon_core.environment:checking '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/bin'
+[65.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.ps1'
+[65.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.dsv'
+[65.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.sh'
+[65.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.bash'
+[65.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.zsh'
+[65.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/colcon-core/packages/ros2_kdl_package)
+[65.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[65.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[65.196s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[65.196s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[65.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[65.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[65.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[65.220s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[65.221s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/telemaque/Robotics_Lab/ros2_ws/install/local_setup.ps1'
+[65.223s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/telemaque/Robotics_Lab/ros2_ws/install/_local_setup_util_ps1.py'
+[65.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/telemaque/Robotics_Lab/ros2_ws/install/setup.ps1'
+[65.228s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/telemaque/Robotics_Lab/ros2_ws/install/local_setup.sh'
+[65.229s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/telemaque/Robotics_Lab/ros2_ws/install/_local_setup_util_sh.py'
+[65.229s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/telemaque/Robotics_Lab/ros2_ws/install/setup.sh'
+[65.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/telemaque/Robotics_Lab/ros2_ws/install/local_setup.bash'
+[65.232s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/telemaque/Robotics_Lab/ros2_ws/install/setup.bash'
+[65.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/telemaque/Robotics_Lab/ros2_ws/install/local_setup.zsh'
+[65.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/telemaque/Robotics_Lab/ros2_ws/install/setup.zsh'

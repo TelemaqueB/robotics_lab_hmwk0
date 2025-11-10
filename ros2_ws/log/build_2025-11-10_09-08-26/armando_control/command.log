@@ -1,0 +1,4 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control

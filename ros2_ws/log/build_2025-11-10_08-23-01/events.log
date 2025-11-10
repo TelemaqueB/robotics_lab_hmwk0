@@ -1,0 +1,1009 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (armando_control) JobQueued: {'identifier': 'armando_control', 'dependencies': OrderedDict()}
+[0.000379] (armando_description) JobQueued: {'identifier': 'armando_description', 'dependencies': OrderedDict()}
+[0.000412] (armando_gazebo) JobQueued: {'identifier': 'armando_gazebo', 'dependencies': OrderedDict()}
+[0.000440] (external_torque_sensor_broadcaster) JobQueued: {'identifier': 'external_torque_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000468] (iiwa_description) JobQueued: {'identifier': 'iiwa_description', 'dependencies': OrderedDict()}
+[0.000495] (impedance_controller) JobQueued: {'identifier': 'impedance_controller', 'dependencies': OrderedDict()}
+[0.000521] (ros2_kdl_package) JobQueued: {'identifier': 'ros2_kdl_package', 'dependencies': OrderedDict()}
+[0.000546] (iiwa_bringup) JobQueued: {'identifier': 'iiwa_bringup', 'dependencies': OrderedDict([('iiwa_description', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description')])}
+[0.000577] (iiwa_description) JobStarted: {'identifier': 'iiwa_description'}
+[0.007431] (armando_control) JobStarted: {'identifier': 'armando_control'}
+[0.011062] (armando_description) JobStarted: {'identifier': 'armando_description'}
+[0.015944] (armando_gazebo) JobStarted: {'identifier': 'armando_gazebo'}
+[0.022238] (external_torque_sensor_broadcaster) JobStarted: {'identifier': 'external_torque_sensor_broadcaster'}
+[0.027240] (impedance_controller) JobStarted: {'identifier': 'impedance_controller'}
+[0.034528] (ros2_kdl_package) JobStarted: {'identifier': 'ros2_kdl_package'}
+[0.043086] (iiwa_description) JobProgress: {'identifier': 'iiwa_description', 'progress': 'cmake'}
+[0.043961] (iiwa_description) JobProgress: {'identifier': 'iiwa_description', 'progress': 'build'}
+[0.044954] (iiwa_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.049635] (armando_control) JobProgress: {'identifier': 'armando_control', 'progress': 'cmake'}
+[0.051395] (armando_control) JobProgress: {'identifier': 'armando_control', 'progress': 'build'}
+[0.051487] (armando_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.053710] (armando_description) JobProgress: {'identifier': 'armando_description', 'progress': 'cmake'}
+[0.053947] (armando_description) JobProgress: {'identifier': 'armando_description', 'progress': 'build'}
+[0.054484] (armando_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.057620] (armando_gazebo) JobProgress: {'identifier': 'armando_gazebo', 'progress': 'cmake'}
+[0.058163] (armando_gazebo) JobProgress: {'identifier': 'armando_gazebo', 'progress': 'build'}
+[0.058830] (armando_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.068786] (external_torque_sensor_broadcaster) JobProgress: {'identifier': 'external_torque_sensor_broadcaster', 'progress': 'cmake'}
+[0.070699] (external_torque_sensor_broadcaster) JobProgress: {'identifier': 'external_torque_sensor_broadcaster', 'progress': 'build'}
+[0.073545] (external_torque_sensor_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.077833] (impedance_controller) JobProgress: {'identifier': 'impedance_controller', 'progress': 'cmake'}
+[0.078974] (impedance_controller) JobProgress: {'identifier': 'impedance_controller', 'progress': 'build'}
+[0.081304] (impedance_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.093388] (ros2_kdl_package) JobProgress: {'identifier': 'ros2_kdl_package', 'progress': 'cmake'}
+[0.095359] (ros2_kdl_package) JobProgress: {'identifier': 'ros2_kdl_package', 'progress': 'build'}
+[0.097679] (ros2_kdl_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.102149] (-) TimerEvent: {}
+[0.134214] (iiwa_description) CommandEnded: {'returncode': 0}
+[0.136837] (iiwa_description) JobProgress: {'identifier': 'iiwa_description', 'progress': 'install'}
+[0.147873] (armando_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target joint_position_publisher\x1b[0m\n'}
+[0.163779] (iiwa_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.168466] (armando_description) CommandEnded: {'returncode': 0}
+[0.170660] (armando_description) JobProgress: {'identifier': 'armando_description', 'progress': 'install'}
+[0.171327] (armando_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.177033] (armando_gazebo) CommandEnded: {'returncode': 0}
+[0.179040] (armando_gazebo) JobProgress: {'identifier': 'armando_gazebo', 'progress': 'install'}
+[0.180583] (armando_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.185732] (iiwa_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.187724] (iiwa_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.188140] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/urdf/iiwa.urdf.xacro\n'}
+[0.188466] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flex_fellow_h800/flex_fellow_h800.dae\n'}
+[0.188735] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/flex_fellow_h800/flex_fellow_h800.stl\n'}
+[0.188989] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/base_link.stl\n'}
+[0.189476] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_1.stl\n'}
+[0.189749] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_2.stl\n'}
+[0.189994] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_3.stl\n'}
+[0.190522] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_4.stl\n'}
+[0.190772] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_5.stl\n'}
+[0.191009] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_6.stl\n'}
+[0.191445] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_7.stl\n'}
+[0.191705] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/collision/link_7_2.stl\n'}
+[0.191933] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/link_7_2.stl\n'}
+[0.192429] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/base_link.dae\n'}
+[0.192789] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_1.dae\n'}
+[0.193020] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_2.dae\n'}
+[0.193299] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_3.dae\n'}
+[0.193543] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_4.dae\n'}
+[0.193786] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_5.dae\n'}
+[0.194006] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_6.dae\n'}
+[0.194308] (ros2_kdl_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_kdl_node\x1b[0m\n'}
+[0.195607] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target external_torque_sensor_broadcaster\x1b[0m\n'}
+[0.196133] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_7.dae\n'}
+[0.196467] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes/lbr_iiwa_14_r820/visual/link_7_2.stl\n'}
+[0.196614] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/iiwa.gazebo.xacro\n'}
+[0.197932] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/models/arucotag/aruco-201.png\n'}
+[0.198493] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/models/arucotag/arucotag.png\n'}
+[0.198746] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/models/arucotag/model.config\n'}
+[0.198971] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/models/arucotag/model.sdf\n'}
+[0.199232] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/gazebo/worlds/empty.world\n'}
+[0.199810] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/rviz/iiwa.rviz\n'}
+[0.200026] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/rviz/moveit.rviz\n'}
+[0.200277] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/rviz/servo_rviz_config.rviz\n'}
+[0.200633] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/ros2_control/iiwa.r2c_hardware.xacro\n'}
+[0.200851] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/ros2_control/iiwa.r2c_hw_ds.xacro\n'}
+[0.201074] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/config/base_frame.yaml\n'}
+[0.201361] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/config/iiwa.config.xacro\n'}
+[0.201601] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/config/iiwa_controllers.yaml\n'}
+[0.201833] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/config/initial_positions.yaml\n'}
+[0.202056] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_cartesian_limits.yaml\n'}
+[0.202308] (-) TimerEvent: {}
+[0.206184] (ros2_kdl_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_kdl_node_example\x1b[0m\n'}
+[0.206774] (armando_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.208219] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_joint_limits.yaml\n'}
+[0.208662] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit2_pose_tracking_config.yaml\n'}
+[0.208965] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit2_pose_tracking_settings.yaml\n'}
+[0.209720] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit2_servo_config.yaml\n'}
+[0.210557] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/iiwa_moveit_controller_config.yaml\n'}
+[0.210847] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/kinematics.yaml\n'}
+[0.211075] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/ompl_planning.yaml\n'}
+[0.211335] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/moveit2/planning_pipelines_config.yaml\n'}
+[0.211570] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/srdf/iiwa.srdf.xacro\n'}
+[0.211788] (armando_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/joint_position_publisher.dir/src/joint_position_publisher.cpp.o\x1b[0m\n'}
+[0.212055] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/srdf/iiwa_macro.srdf.xacro\n'}
+[0.212932] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/environment/iiwa_description.sh\n'}
+[0.213365] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/ament_index/resource_index/package_run_dependencies/iiwa_description\n'}
+[0.213635] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/ament_index/resource_index/parent_prefix_path/iiwa_description\n'}
+[0.213863] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/environment/ament_prefix_path.sh\n'}
+[0.214096] (armando_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.214402] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/environment/ament_prefix_path.dsv\n'}
+[0.214662] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/environment/path.sh\n'}
+[0.214895] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/environment/path.dsv\n'}
+[0.215104] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.bash\n'}
+[0.215410] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//launch/armando_display.launch.py\n'}
+[0.215658] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.sh\n'}
+[0.215921] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.zsh\n'}
+[0.216839] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//urdf/armando.urdf.xacro\n'}
+[0.217192] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//urdf/armando_hardware_interface.xacro\n'}
+[0.217436] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/local_setup.dsv\n'}
+[0.217643] (iiwa_description) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.dsv\n'}
+[0.217830] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_legs_arbotix_m.stl\n'}
+[0.218026] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_link.stl\n'}
+[0.218238] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn.stl\n'}
+[0.218414] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table.stl\n'}
+[0.218598] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_bot.stl\n'}
+[0.219317] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_rot.stl\n'}
+[0.219771] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_spacer.stl\n'}
+[0.220137] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/dyn.stl\n'}
+[0.220446] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/f4_n_f3.stl\n'}
+[0.220698] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/inertia.py\n'}
+[0.220952] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/servo_hinge_flange.stl\n'}
+[0.221257] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer.stl\n'}
+[0.221563] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer_base.stl\n'}
+[0.222257] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer_lever.stl\n'}
+[0.222677] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/wrist.stl\n'}
+[0.222926] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/wrist_rotate.stl\n'}
+[0.223193] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//config/armando.rviz\n'}
+[0.223477] (armando_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.223875] (armando_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.224188] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/package_run_dependencies/armando_description\n'}
+[0.224528] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/parent_prefix_path/armando_description\n'}
+[0.228394] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/package_run_dependencies/armando_gazebo\n'}
+[0.228889] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/parent_prefix_path/armando_gazebo\n'}
+[0.229184] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/ament_prefix_path.sh\n'}
+[0.229491] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/ament_prefix_path.dsv\n'}
+[0.229751] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/path.sh\n'}
+[0.230045] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.sh\n'}
+[0.233355] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/path.dsv\n'}
+[0.233752] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.234060] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.sh\n'}
+[0.235094] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/environment/path.dsv\n'}
+[0.236894] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.bash\n'}
+[0.238993] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.bash\n'}
+[0.239802] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.sh\n'}
+[0.240416] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.zsh\n'}
+[0.240769] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.dsv\n'}
+[0.241050] (armando_description) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.dsv\n'}
+[0.241413] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.sh\n'}
+[0.241732] (impedance_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/impedance_controller.dir/src/impedance_controller.cpp.o\x1b[0m\n'}
+[0.243304] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.zsh\n'}
+[0.244714] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/local_setup.dsv\n'}
+[0.245080] (armando_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.dsv\n'}
+[0.245414] (ros2_kdl_package) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o\x1b[0m\n'}
+[0.246089] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/ament_index/resource_index/packages/iiwa_description\n'}
+[0.246771] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/cmake/iiwa_descriptionConfig.cmake\n'}
+[0.247013] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/cmake/iiwa_descriptionConfig-version.cmake\n'}
+[0.247829] (iiwa_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/package.xml\n'}
+[0.248483] (ros2_kdl_package) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/kdl_robot.cpp.o\x1b[0m\n'}
+[0.248877] (ros2_kdl_package) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/kdl_control.cpp.o\x1b[0m\n'}
+[0.249507] (iiwa_description) CommandEnded: {'returncode': 0}
+[0.251352] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'[100%] Built target external_torque_sensor_broadcaster\n'}
+[0.251931] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/packages/armando_description\n'}
+[0.252642] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/cmake/armando_descriptionConfig.cmake\n'}
+[0.252927] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/cmake/armando_descriptionConfig-version.cmake\n'}
+[0.253240] (armando_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.xml\n'}
+[0.253618] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/ament_index/resource_index/packages/armando_gazebo\n'}
+[0.254634] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig.cmake\n'}
+[0.255275] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/cmake/armando_gazeboConfig-version.cmake\n'}
+[0.255561] (armando_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo/share/armando_gazebo/package.xml\n'}
+[0.255781] (ros2_kdl_package) StdoutLine: {'line': b'[ 71%] Built target ros2_kdl_node_example\n'}
+[0.303152] (-) TimerEvent: {}
+[0.311064] (iiwa_description) JobEnded: {'identifier': 'iiwa_description', 'rc': 0}
+[0.314988] (iiwa_bringup) JobStarted: {'identifier': 'iiwa_bringup'}
+[0.328565] (armando_description) CommandEnded: {'returncode': 0}
+[0.370556] (armando_description) JobEnded: {'identifier': 'armando_description', 'rc': 0}
+[0.372022] (armando_gazebo) CommandEnded: {'returncode': 0}
+[0.403555] (-) TimerEvent: {}
+[0.407534] (armando_gazebo) JobEnded: {'identifier': 'armando_gazebo', 'rc': 0}
+[0.409179] (external_torque_sensor_broadcaster) CommandEnded: {'returncode': 0}
+[0.410514] (external_torque_sensor_broadcaster) JobProgress: {'identifier': 'external_torque_sensor_broadcaster', 'progress': 'install'}
+[0.412886] (external_torque_sensor_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/external_torque_sensor_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.417106] (iiwa_bringup) JobProgress: {'identifier': 'iiwa_bringup', 'progress': 'cmake'}
+[0.419138] (iiwa_bringup) JobProgress: {'identifier': 'iiwa_bringup', 'progress': 'build'}
+[0.420417] (iiwa_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup', '--', '-j12', '-l12'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.434838] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.436677] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.437546] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster//external_torque_sensor_broadcaster.xml\n'}
+[0.464231] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib/libexternal_torque_sensor_broadcaster.so\n'}
+[0.488982] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/include/external_torque_sensor_broadcaster/external_torque_sensor.hpp\n'}
+[0.503811] (-) TimerEvent: {}
+[0.512278] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/include/external_torque_sensor_broadcaster/external_torque_sensor_broadcaster.hpp\n'}
+[0.534546] (iiwa_bringup) CommandEnded: {'returncode': 0}
+[0.537264] (iiwa_bringup) JobProgress: {'identifier': 'iiwa_bringup', 'progress': 'install'}
+[0.538672] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/include/external_torque_sensor_broadcaster/visibility_control.h\n'}
+[0.541871] (iiwa_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/iiwa_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[0.561540] (iiwa_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.562868] (iiwa_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.563349] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/environment/library_path.sh\n'}
+[0.564028] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa.launch.py\n'}
+[0.564401] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_planning.launch.py\n'}
+[0.564711] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_pose_tracking.launch.py\n'}
+[0.564992] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_servoing.launch.py\n'}
+[0.565276] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/iiwa_test_joint_trajectory_controller.launch.py\n'}
+[0.565551] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/launch/joy_servo_teleop.launch.py\n'}
+[0.566104] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/config/test_trajectory_config.yaml\n'}
+[0.566679] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/ament_index/resource_index/package_run_dependencies/iiwa_bringup\n'}
+[0.567093] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/ament_index/resource_index/parent_prefix_path/iiwa_bringup\n'}
+[0.567653] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/ament_prefix_path.sh\n'}
+[0.568178] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/ament_prefix_path.dsv\n'}
+[0.568713] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/path.sh\n'}
+[0.569172] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/environment/path.dsv\n'}
+[0.569633] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.bash\n'}
+[0.570044] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.sh\n'}
+[0.570398] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.zsh\n'}
+[0.570701] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/local_setup.dsv\n'}
+[0.571085] (iiwa_bringup) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.dsv\n'}
+[0.587235] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/environment/library_path.dsv\n'}
+[0.594926] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/ament_index/resource_index/packages/iiwa_bringup\n'}
+[0.595674] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/cmake/iiwa_bringupConfig.cmake\n'}
+[0.595947] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/cmake/iiwa_bringupConfig-version.cmake\n'}
+[0.596351] (iiwa_bringup) StdoutLine: {'line': b'-- Up-to-date symlink: /home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup/share/iiwa_bringup/package.xml\n'}
+[0.600533] (iiwa_bringup) CommandEnded: {'returncode': 0}
+[0.603927] (-) TimerEvent: {}
+[0.615323] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/external_torque_sensor_broadcaster\n'}
+[0.636681] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/external_torque_sensor_broadcaster\n'}
+[0.644084] (iiwa_bringup) JobEnded: {'identifier': 'iiwa_bringup', 'rc': 0}
+[0.659681] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/environment/ament_prefix_path.sh\n'}
+[0.683443] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/environment/ament_prefix_path.dsv\n'}
+[0.704211] (-) TimerEvent: {}
+[0.705935] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/environment/path.sh\n'}
+[0.729016] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/environment/path.dsv\n'}
+[0.754577] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/local_setup.bash\n'}
+[0.777597] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/local_setup.sh\n'}
+[0.799448] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/local_setup.zsh\n'}
+[0.804406] (-) TimerEvent: {}
+[0.820471] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/local_setup.dsv\n'}
+[0.843467] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.dsv\n'}
+[0.867775] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/ament_index/resource_index/packages/external_torque_sensor_broadcaster\n'}
+[0.890837] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/external_torque_sensor_broadcaster\n'}
+[0.904642] (-) TimerEvent: {}
+[0.912786] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.937203] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.962407] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.988285] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/cmake/external_torque_sensor_broadcasterConfig.cmake\n'}
+[1.004912] (-) TimerEvent: {}
+[1.013097] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/cmake/external_torque_sensor_broadcasterConfig-version.cmake\n'}
+[1.038420] (external_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/share/external_torque_sensor_broadcaster/package.xml\n'}
+[1.070310] (external_torque_sensor_broadcaster) CommandEnded: {'returncode': 0}
+[1.105449] (-) TimerEvent: {}
+[1.127364] (external_torque_sensor_broadcaster) JobEnded: {'identifier': 'external_torque_sensor_broadcaster', 'rc': 0}
+[1.205695] (-) TimerEvent: {}
+[1.306344] (-) TimerEvent: {}
+[1.407044] (-) TimerEvent: {}
+[1.507776] (-) TimerEvent: {}
+[1.608532] (-) TimerEvent: {}
+[1.709259] (-) TimerEvent: {}
+[1.809993] (-) TimerEvent: {}
+[1.910765] (-) TimerEvent: {}
+[2.011512] (-) TimerEvent: {}
+[2.112263] (-) TimerEvent: {}
+[2.212982] (-) TimerEvent: {}
+[2.313719] (-) TimerEvent: {}
+[2.414452] (-) TimerEvent: {}
+[2.515191] (-) TimerEvent: {}
+[2.615915] (-) TimerEvent: {}
+[2.716686] (-) TimerEvent: {}
+[2.817418] (-) TimerEvent: {}
+[2.918147] (-) TimerEvent: {}
+[3.018884] (-) TimerEvent: {}
+[3.119644] (-) TimerEvent: {}
+[3.220400] (-) TimerEvent: {}
+[3.321136] (-) TimerEvent: {}
+[3.421864] (-) TimerEvent: {}
+[3.522632] (-) TimerEvent: {}
+[3.623345] (-) TimerEvent: {}
+[3.724091] (-) TimerEvent: {}
+[3.824929] (-) TimerEvent: {}
+[3.925748] (-) TimerEvent: {}
+[4.026552] (-) TimerEvent: {}
+[4.127295] (-) TimerEvent: {}
+[4.228071] (-) TimerEvent: {}
+[4.328819] (-) TimerEvent: {}
+[4.429596] (-) TimerEvent: {}
+[4.530329] (-) TimerEvent: {}
+[4.631104] (-) TimerEvent: {}
+[4.731887] (-) TimerEvent: {}
+[4.832635] (-) TimerEvent: {}
+[4.933357] (-) TimerEvent: {}
+[5.034141] (-) TimerEvent: {}
+[5.134927] (-) TimerEvent: {}
+[5.184060] (impedance_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller/include/impedance_controller/impedance_controller.hpp:27\x1b[m\x1b[K,\n'}
+[5.184675] (impedance_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller/src/impedance_controller.cpp:15\x1b[m\x1b[K:\n'}
+[5.184904] (impedance_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[5.185121] (impedance_controller) StderrLine: {'line': b'   22 | lease update your code to use \'realtime_buffer.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[5.185324] (impedance_controller) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.185510] (impedance_controller) StderrLine: {'line': b'\n'}
+[5.235202] (-) TimerEvent: {}
+[5.335945] (-) TimerEvent: {}
+[5.436708] (-) TimerEvent: {}
+[5.537575] (-) TimerEvent: {}
+[5.638322] (-) TimerEvent: {}
+[5.724403] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KEigen::VectorXd KDLController::idCntr(KDL::Frame&, KDL::Twist&, KDL::Twist&, double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.724901] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:33:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.725131] (ros2_kdl_package) StderrLine: {'line': b'   33 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[5.725321] (ros2_kdl_package) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.725488] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:26:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_desPos\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.725666] (ros2_kdl_package) StderrLine: {'line': b'   26 | Eigen::VectorXd KDLController::idCntr(\x1b[01;35m\x1b[KKDL::Frame &_desPos\x1b[m\x1b[K,\n'}
+[5.725841] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.726007] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:27:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_desVel\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.726211] (ros2_kdl_package) StderrLine: {'line': b'   27 |                                       \x1b[01;35m\x1b[KKDL::Twist &_desVel\x1b[m\x1b[K,\n'}
+[5.726387] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.726553] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:28:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_desAcc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.726750] (ros2_kdl_package) StderrLine: {'line': b'   28 |                                       \x1b[01;35m\x1b[KKDL::Twist &_desAcc\x1b[m\x1b[K,\n'}
+[5.726914] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.727076] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kpp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.727267] (ros2_kdl_package) StderrLine: {'line': b'   29 |                                       \x1b[01;35m\x1b[Kdouble _Kpp\x1b[m\x1b[K, double _Kpo,\n'}
+[5.727434] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.727601] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:29:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kpo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.727773] (ros2_kdl_package) StderrLine: {'line': b'   29 |                                       double _Kpp, \x1b[01;35m\x1b[Kdouble _Kpo\x1b[m\x1b[K,\n'}
+[5.727937] (ros2_kdl_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.728101] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kdp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.728315] (ros2_kdl_package) StderrLine: {'line': b'   30 |                                       \x1b[01;35m\x1b[Kdouble _Kdp\x1b[m\x1b[K, double _Kdo)\n'}
+[5.728477] (ros2_kdl_package) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.728636] (ros2_kdl_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/kdl_control.cpp:30:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[K_Kdo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.728812] (ros2_kdl_package) StderrLine: {'line': b'   30 |                                       double _Kdp, \x1b[01;35m\x1b[Kdouble _Kdo\x1b[m\x1b[K)\n'}
+[5.728966] (ros2_kdl_package) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.738552] (-) TimerEvent: {}
+[5.839264] (-) TimerEvent: {}
+[5.939963] (-) TimerEvent: {}
+[6.040737] (-) TimerEvent: {}
+[6.141535] (-) TimerEvent: {}
+[6.242328] (-) TimerEvent: {}
+[6.343049] (-) TimerEvent: {}
+[6.443791] (-) TimerEvent: {}
+[6.544525] (-) TimerEvent: {}
+[6.645319] (-) TimerEvent: {}
+[6.746141] (-) TimerEvent: {}
+[6.846928] (-) TimerEvent: {}
+[6.947682] (-) TimerEvent: {}
+[7.048474] (-) TimerEvent: {}
+[7.149209] (-) TimerEvent: {}
+[7.249945] (-) TimerEvent: {}
+[7.350725] (-) TimerEvent: {}
+[7.451486] (-) TimerEvent: {}
+[7.552259] (-) TimerEvent: {}
+[7.653004] (-) TimerEvent: {}
+[7.753851] (-) TimerEvent: {}
+[7.854574] (-) TimerEvent: {}
+[7.955360] (-) TimerEvent: {}
+[8.056231] (-) TimerEvent: {}
+[8.157068] (-) TimerEvent: {}
+[8.257886] (-) TimerEvent: {}
+[8.358707] (-) TimerEvent: {}
+[8.459524] (-) TimerEvent: {}
+[8.560365] (-) TimerEvent: {}
+[8.661209] (-) TimerEvent: {}
+[8.762058] (-) TimerEvent: {}
+[8.862888] (-) TimerEvent: {}
+[8.963791] (-) TimerEvent: {}
+[9.064708] (-) TimerEvent: {}
+[9.165598] (-) TimerEvent: {}
+[9.266416] (-) TimerEvent: {}
+[9.367287] (-) TimerEvent: {}
+[9.468095] (-) TimerEvent: {}
+[9.568981] (-) TimerEvent: {}
+[9.669816] (-) TimerEvent: {}
+[9.770632] (-) TimerEvent: {}
+[9.871425] (-) TimerEvent: {}
+[9.972338] (-) TimerEvent: {}
+[10.073184] (-) TimerEvent: {}
+[10.174081] (-) TimerEvent: {}
+[10.274981] (-) TimerEvent: {}
+[10.375858] (-) TimerEvent: {}
+[10.476610] (-) TimerEvent: {}
+[10.577377] (-) TimerEvent: {}
+[10.678232] (-) TimerEvent: {}
+[10.779143] (-) TimerEvent: {}
+[10.879995] (-) TimerEvent: {}
+[10.980884] (-) TimerEvent: {}
+[11.081807] (-) TimerEvent: {}
+[11.182688] (-) TimerEvent: {}
+[11.283515] (-) TimerEvent: {}
+[11.384405] (-) TimerEvent: {}
+[11.485326] (-) TimerEvent: {}
+[11.586278] (-) TimerEvent: {}
+[11.687171] (-) TimerEvent: {}
+[11.787964] (-) TimerEvent: {}
+[11.888816] (-) TimerEvent: {}
+[11.989652] (-) TimerEvent: {}
+[12.090551] (-) TimerEvent: {}
+[12.191483] (-) TimerEvent: {}
+[12.292376] (-) TimerEvent: {}
+[12.393301] (-) TimerEvent: {}
+[12.494268] (-) TimerEvent: {}
+[12.595236] (-) TimerEvent: {}
+[12.696169] (-) TimerEvent: {}
+[12.797089] (-) TimerEvent: {}
+[12.897978] (-) TimerEvent: {}
+[12.998783] (-) TimerEvent: {}
+[13.099578] (-) TimerEvent: {}
+[13.200462] (-) TimerEvent: {}
+[13.301329] (-) TimerEvent: {}
+[13.402267] (-) TimerEvent: {}
+[13.503103] (-) TimerEvent: {}
+[13.603911] (-) TimerEvent: {}
+[13.704783] (-) TimerEvent: {}
+[13.805595] (-) TimerEvent: {}
+[13.906358] (-) TimerEvent: {}
+[14.007078] (-) TimerEvent: {}
+[14.107971] (-) TimerEvent: {}
+[14.208866] (-) TimerEvent: {}
+[14.309768] (-) TimerEvent: {}
+[14.410643] (-) TimerEvent: {}
+[14.511652] (-) TimerEvent: {}
+[14.612462] (-) TimerEvent: {}
+[14.713872] (-) TimerEvent: {}
+[14.814627] (-) TimerEvent: {}
+[14.915368] (-) TimerEvent: {}
+[15.016159] (-) TimerEvent: {}
+[15.116945] (-) TimerEvent: {}
+[15.217744] (-) TimerEvent: {}
+[15.318534] (-) TimerEvent: {}
+[15.419299] (-) TimerEvent: {}
+[15.520070] (-) TimerEvent: {}
+[15.620876] (-) TimerEvent: {}
+[15.721784] (-) TimerEvent: {}
+[15.822753] (-) TimerEvent: {}
+[15.923738] (-) TimerEvent: {}
+[16.024583] (-) TimerEvent: {}
+[16.125408] (-) TimerEvent: {}
+[16.226169] (-) TimerEvent: {}
+[16.326873] (-) TimerEvent: {}
+[16.427531] (-) TimerEvent: {}
+[16.528199] (-) TimerEvent: {}
+[16.628899] (-) TimerEvent: {}
+[16.729608] (-) TimerEvent: {}
+[16.830294] (-) TimerEvent: {}
+[16.930987] (-) TimerEvent: {}
+[17.031704] (-) TimerEvent: {}
+[17.132441] (-) TimerEvent: {}
+[17.233080] (-) TimerEvent: {}
+[17.333778] (-) TimerEvent: {}
+[17.434487] (-) TimerEvent: {}
+[17.535127] (-) TimerEvent: {}
+[17.635835] (-) TimerEvent: {}
+[17.736671] (-) TimerEvent: {}
+[17.837475] (-) TimerEvent: {}
+[17.938255] (-) TimerEvent: {}
+[18.039002] (-) TimerEvent: {}
+[18.139685] (-) TimerEvent: {}
+[18.240480] (-) TimerEvent: {}
+[18.341228] (-) TimerEvent: {}
+[18.442009] (-) TimerEvent: {}
+[18.542786] (-) TimerEvent: {}
+[18.643562] (-) TimerEvent: {}
+[18.744332] (-) TimerEvent: {}
+[18.845176] (-) TimerEvent: {}
+[18.945968] (-) TimerEvent: {}
+[19.046796] (-) TimerEvent: {}
+[19.147516] (-) TimerEvent: {}
+[19.248243] (-) TimerEvent: {}
+[19.348897] (-) TimerEvent: {}
+[19.449684] (-) TimerEvent: {}
+[19.550491] (-) TimerEvent: {}
+[19.651271] (-) TimerEvent: {}
+[19.752067] (-) TimerEvent: {}
+[19.852941] (-) TimerEvent: {}
+[19.953753] (-) TimerEvent: {}
+[20.054634] (-) TimerEvent: {}
+[20.145804] (impedance_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libimpedance_controller.so\x1b[0m\n'}
+[20.154884] (-) TimerEvent: {}
+[20.255780] (-) TimerEvent: {}
+[20.356549] (-) TimerEvent: {}
+[20.457370] (-) TimerEvent: {}
+[20.558441] (-) TimerEvent: {}
+[20.659442] (-) TimerEvent: {}
+[20.760289] (-) TimerEvent: {}
+[20.861104] (-) TimerEvent: {}
+[20.961960] (-) TimerEvent: {}
+[21.062779] (-) TimerEvent: {}
+[21.163542] (-) TimerEvent: {}
+[21.264303] (-) TimerEvent: {}
+[21.365052] (-) TimerEvent: {}
+[21.424230] (impedance_controller) StdoutLine: {'line': b'[100%] Built target impedance_controller\n'}
+[21.463065] (impedance_controller) CommandEnded: {'returncode': 0}
+[21.465401] (-) TimerEvent: {}
+[21.466514] (impedance_controller) JobProgress: {'identifier': 'impedance_controller', 'progress': 'install'}
+[21.468145] (impedance_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[21.497357] (impedance_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.499489] (impedance_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.500533] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller//impedance_plugin.xml\n'}
+[21.533253] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/include/impedance_controller/impedance_controller.hpp\n'}
+[21.563615] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/include/impedance_controller/visibility_control.h\n'}
+[21.565590] (-) TimerEvent: {}
+[21.591781] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib/libimpedance_controller.so\n'}
+[21.622875] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.sh\n'}
+[21.651785] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.dsv\n'}
+[21.665904] (-) TimerEvent: {}
+[21.681589] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/package_run_dependencies/impedance_controller\n'}
+[21.712409] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/parent_prefix_path/impedance_controller\n'}
+[21.740825] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.sh\n'}
+[21.764985] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.dsv\n'}
+[21.766003] (-) TimerEvent: {}
+[21.789474] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.sh\n'}
+[21.816560] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.dsv\n'}
+[21.843363] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.bash\n'}
+[21.866310] (-) TimerEvent: {}
+[21.869921] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.sh\n'}
+[21.896820] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.zsh\n'}
+[21.924087] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.dsv\n'}
+[21.948498] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv\n'}
+[21.966544] (-) TimerEvent: {}
+[21.972345] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/packages/impedance_controller\n'}
+[21.995949] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/impedance_controller\n'}
+[22.020465] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.044448] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.066764] (-) TimerEvent: {}
+[22.068241] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.091575] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig.cmake\n'}
+[22.117636] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig-version.cmake\n'}
+[22.146156] (impedance_controller) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.xml\n'}
+[22.167027] (-) TimerEvent: {}
+[22.179958] (impedance_controller) CommandEnded: {'returncode': 0}
+[22.234080] (impedance_controller) JobEnded: {'identifier': 'impedance_controller', 'rc': 0}
+[22.267394] (-) TimerEvent: {}
+[22.368187] (-) TimerEvent: {}
+[22.468875] (-) TimerEvent: {}
+[22.569607] (-) TimerEvent: {}
+[22.670303] (-) TimerEvent: {}
+[22.770919] (-) TimerEvent: {}
+[22.871646] (-) TimerEvent: {}
+[22.972345] (-) TimerEvent: {}
+[23.073054] (-) TimerEvent: {}
+[23.173774] (-) TimerEvent: {}
+[23.274518] (-) TimerEvent: {}
+[23.375246] (-) TimerEvent: {}
+[23.475966] (-) TimerEvent: {}
+[23.576774] (-) TimerEvent: {}
+[23.677561] (-) TimerEvent: {}
+[23.778251] (-) TimerEvent: {}
+[23.878921] (-) TimerEvent: {}
+[23.979567] (-) TimerEvent: {}
+[24.080270] (-) TimerEvent: {}
+[24.180951] (-) TimerEvent: {}
+[24.281664] (-) TimerEvent: {}
+[24.382461] (-) TimerEvent: {}
+[24.483224] (-) TimerEvent: {}
+[24.584176] (-) TimerEvent: {}
+[24.685043] (-) TimerEvent: {}
+[24.785838] (-) TimerEvent: {}
+[24.886700] (-) TimerEvent: {}
+[24.987600] (-) TimerEvent: {}
+[25.048419] (armando_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable joint_position_publisher\x1b[0m\n'}
+[25.087837] (-) TimerEvent: {}
+[25.188595] (-) TimerEvent: {}
+[25.289343] (-) TimerEvent: {}
+[25.390223] (-) TimerEvent: {}
+[25.490981] (-) TimerEvent: {}
+[25.591857] (-) TimerEvent: {}
+[25.692723] (-) TimerEvent: {}
+[25.793418] (-) TimerEvent: {}
+[25.894158] (-) TimerEvent: {}
+[25.994997] (-) TimerEvent: {}
+[26.095801] (-) TimerEvent: {}
+[26.192754] (armando_control) StdoutLine: {'line': b'[100%] Built target joint_position_publisher\n'}
+[26.195997] (-) TimerEvent: {}
+[26.233344] (armando_control) CommandEnded: {'returncode': 0}
+[26.235049] (armando_control) JobProgress: {'identifier': 'armando_control', 'progress': 'install'}
+[26.236142] (armando_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[26.257639] (armando_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.259015] (armando_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.260033] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/armando_control/joint_position_publisher\n'}
+[26.283233] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/package_run_dependencies/armando_control\n'}
+[26.296287] (-) TimerEvent: {}
+[26.306070] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/parent_prefix_path/armando_control\n'}
+[26.331356] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.sh\n'}
+[26.359248] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.dsv\n'}
+[26.387190] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.sh\n'}
+[26.396603] (-) TimerEvent: {}
+[26.411815] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.dsv\n'}
+[26.434526] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.bash\n'}
+[26.459954] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.sh\n'}
+[26.482932] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.zsh\n'}
+[26.496857] (-) TimerEvent: {}
+[26.507788] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.dsv\n'}
+[26.530506] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.dsv\n'}
+[26.554786] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/packages/armando_control\n'}
+[26.577646] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig.cmake\n'}
+[26.597096] (-) TimerEvent: {}
+[26.599372] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig-version.cmake\n'}
+[26.621839] (armando_control) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.xml\n'}
+[26.650323] (armando_control) CommandEnded: {'returncode': 0}
+[26.691041] (armando_control) JobEnded: {'identifier': 'armando_control', 'rc': 0}
+[26.697370] (-) TimerEvent: {}
+[26.798051] (-) TimerEvent: {}
+[26.898794] (-) TimerEvent: {}
+[26.999566] (-) TimerEvent: {}
+[27.100367] (-) TimerEvent: {}
+[27.201251] (-) TimerEvent: {}
+[27.302098] (-) TimerEvent: {}
+[27.402907] (-) TimerEvent: {}
+[27.503687] (-) TimerEvent: {}
+[27.604430] (-) TimerEvent: {}
+[27.705220] (-) TimerEvent: {}
+[27.805994] (-) TimerEvent: {}
+[27.906800] (-) TimerEvent: {}
+[28.007502] (-) TimerEvent: {}
+[28.108268] (-) TimerEvent: {}
+[28.208980] (-) TimerEvent: {}
+[28.309712] (-) TimerEvent: {}
+[28.410333] (-) TimerEvent: {}
+[28.511133] (-) TimerEvent: {}
+[28.611862] (-) TimerEvent: {}
+[28.712573] (-) TimerEvent: {}
+[28.813265] (-) TimerEvent: {}
+[28.913960] (-) TimerEvent: {}
+[29.014677] (-) TimerEvent: {}
+[29.115369] (-) TimerEvent: {}
+[29.216066] (-) TimerEvent: {}
+[29.316764] (-) TimerEvent: {}
+[29.417475] (-) TimerEvent: {}
+[29.518188] (-) TimerEvent: {}
+[29.618864] (-) TimerEvent: {}
+[29.719555] (-) TimerEvent: {}
+[29.820267] (-) TimerEvent: {}
+[29.920840] (-) TimerEvent: {}
+[30.021569] (-) TimerEvent: {}
+[30.122268] (-) TimerEvent: {}
+[30.222938] (-) TimerEvent: {}
+[30.323647] (-) TimerEvent: {}
+[30.424308] (-) TimerEvent: {}
+[30.524980] (-) TimerEvent: {}
+[30.625633] (-) TimerEvent: {}
+[30.726235] (-) TimerEvent: {}
+[30.826779] (-) TimerEvent: {}
+[30.927386] (-) TimerEvent: {}
+[31.027980] (-) TimerEvent: {}
+[31.128690] (-) TimerEvent: {}
+[31.229257] (-) TimerEvent: {}
+[31.329812] (-) TimerEvent: {}
+[31.430399] (-) TimerEvent: {}
+[31.530962] (-) TimerEvent: {}
+[31.631534] (-) TimerEvent: {}
+[31.732075] (-) TimerEvent: {}
+[31.832653] (-) TimerEvent: {}
+[31.933235] (-) TimerEvent: {}
+[32.033702] (-) TimerEvent: {}
+[32.134235] (-) TimerEvent: {}
+[32.234794] (-) TimerEvent: {}
+[32.335353] (-) TimerEvent: {}
+[32.435904] (-) TimerEvent: {}
+[32.536487] (-) TimerEvent: {}
+[32.637052] (-) TimerEvent: {}
+[32.737613] (-) TimerEvent: {}
+[32.838101] (-) TimerEvent: {}
+[32.938601] (-) TimerEvent: {}
+[33.039096] (-) TimerEvent: {}
+[33.139634] (-) TimerEvent: {}
+[33.240208] (-) TimerEvent: {}
+[33.340754] (-) TimerEvent: {}
+[33.441307] (-) TimerEvent: {}
+[33.541787] (-) TimerEvent: {}
+[33.642309] (-) TimerEvent: {}
+[33.742846] (-) TimerEvent: {}
+[33.843344] (-) TimerEvent: {}
+[33.943907] (-) TimerEvent: {}
+[34.044502] (-) TimerEvent: {}
+[34.145054] (-) TimerEvent: {}
+[34.245529] (-) TimerEvent: {}
+[34.346071] (-) TimerEvent: {}
+[34.446654] (-) TimerEvent: {}
+[34.547233] (-) TimerEvent: {}
+[34.647884] (-) TimerEvent: {}
+[34.748470] (-) TimerEvent: {}
+[34.849014] (-) TimerEvent: {}
+[34.949509] (-) TimerEvent: {}
+[35.050204] (-) TimerEvent: {}
+[35.150835] (-) TimerEvent: {}
+[35.251484] (-) TimerEvent: {}
+[35.352137] (-) TimerEvent: {}
+[35.452658] (-) TimerEvent: {}
+[35.553176] (-) TimerEvent: {}
+[35.653810] (-) TimerEvent: {}
+[35.754437] (-) TimerEvent: {}
+[35.855042] (-) TimerEvent: {}
+[35.955776] (-) TimerEvent: {}
+[36.056349] (-) TimerEvent: {}
+[36.156909] (-) TimerEvent: {}
+[36.257521] (-) TimerEvent: {}
+[36.358083] (-) TimerEvent: {}
+[36.458667] (-) TimerEvent: {}
+[36.559243] (-) TimerEvent: {}
+[36.659875] (-) TimerEvent: {}
+[36.760555] (-) TimerEvent: {}
+[36.861178] (-) TimerEvent: {}
+[36.961815] (-) TimerEvent: {}
+[37.062466] (-) TimerEvent: {}
+[37.163055] (-) TimerEvent: {}
+[37.263738] (-) TimerEvent: {}
+[37.364304] (-) TimerEvent: {}
+[37.464874] (-) TimerEvent: {}
+[37.565457] (-) TimerEvent: {}
+[37.666025] (-) TimerEvent: {}
+[37.766625] (-) TimerEvent: {}
+[37.867202] (-) TimerEvent: {}
+[37.967760] (-) TimerEvent: {}
+[38.068334] (-) TimerEvent: {}
+[38.168915] (-) TimerEvent: {}
+[38.269510] (-) TimerEvent: {}
+[38.370074] (-) TimerEvent: {}
+[38.470650] (-) TimerEvent: {}
+[38.571227] (-) TimerEvent: {}
+[38.671784] (-) TimerEvent: {}
+[38.772319] (-) TimerEvent: {}
+[38.872900] (-) TimerEvent: {}
+[38.973478] (-) TimerEvent: {}
+[39.074071] (-) TimerEvent: {}
+[39.174652] (-) TimerEvent: {}
+[39.275238] (-) TimerEvent: {}
+[39.375796] (-) TimerEvent: {}
+[39.476366] (-) TimerEvent: {}
+[39.576945] (-) TimerEvent: {}
+[39.677457] (-) TimerEvent: {}
+[39.778039] (-) TimerEvent: {}
+[39.878652] (-) TimerEvent: {}
+[39.979244] (-) TimerEvent: {}
+[40.079809] (-) TimerEvent: {}
+[40.180395] (-) TimerEvent: {}
+[40.280873] (-) TimerEvent: {}
+[40.381476] (-) TimerEvent: {}
+[40.482061] (-) TimerEvent: {}
+[40.582655] (-) TimerEvent: {}
+[40.683179] (-) TimerEvent: {}
+[40.783713] (-) TimerEvent: {}
+[40.884261] (-) TimerEvent: {}
+[40.984814] (-) TimerEvent: {}
+[41.085347] (-) TimerEvent: {}
+[41.185902] (-) TimerEvent: {}
+[41.286511] (-) TimerEvent: {}
+[41.387079] (-) TimerEvent: {}
+[41.487678] (-) TimerEvent: {}
+[41.588282] (-) TimerEvent: {}
+[41.688767] (-) TimerEvent: {}
+[41.789320] (-) TimerEvent: {}
+[41.889901] (-) TimerEvent: {}
+[41.990510] (-) TimerEvent: {}
+[42.091089] (-) TimerEvent: {}
+[42.191560] (-) TimerEvent: {}
+[42.292144] (-) TimerEvent: {}
+[42.392658] (-) TimerEvent: {}
+[42.493232] (-) TimerEvent: {}
+[42.593811] (-) TimerEvent: {}
+[42.694351] (-) TimerEvent: {}
+[42.794978] (-) TimerEvent: {}
+[42.895499] (-) TimerEvent: {}
+[42.996091] (-) TimerEvent: {}
+[43.096700] (-) TimerEvent: {}
+[43.197256] (-) TimerEvent: {}
+[43.297837] (-) TimerEvent: {}
+[43.398449] (-) TimerEvent: {}
+[43.498964] (-) TimerEvent: {}
+[43.599580] (-) TimerEvent: {}
+[43.700157] (-) TimerEvent: {}
+[43.800887] (-) TimerEvent: {}
+[43.901453] (-) TimerEvent: {}
+[44.002145] (-) TimerEvent: {}
+[44.102722] (-) TimerEvent: {}
+[44.203362] (-) TimerEvent: {}
+[44.304014] (-) TimerEvent: {}
+[44.404743] (-) TimerEvent: {}
+[44.505418] (-) TimerEvent: {}
+[44.605936] (-) TimerEvent: {}
+[44.706408] (-) TimerEvent: {}
+[44.806977] (-) TimerEvent: {}
+[44.907562] (-) TimerEvent: {}
+[45.008146] (-) TimerEvent: {}
+[45.108614] (-) TimerEvent: {}
+[45.209195] (-) TimerEvent: {}
+[45.309678] (-) TimerEvent: {}
+[45.410238] (-) TimerEvent: {}
+[45.510804] (-) TimerEvent: {}
+[45.611331] (-) TimerEvent: {}
+[45.711968] (-) TimerEvent: {}
+[45.812724] (-) TimerEvent: {}
+[45.913339] (-) TimerEvent: {}
+[46.014011] (-) TimerEvent: {}
+[46.114637] (-) TimerEvent: {}
+[46.215285] (-) TimerEvent: {}
+[46.315912] (-) TimerEvent: {}
+[46.416466] (-) TimerEvent: {}
+[46.517059] (-) TimerEvent: {}
+[46.617693] (-) TimerEvent: {}
+[46.718271] (-) TimerEvent: {}
+[46.818790] (-) TimerEvent: {}
+[46.919426] (-) TimerEvent: {}
+[47.020015] (-) TimerEvent: {}
+[47.120633] (-) TimerEvent: {}
+[47.221215] (-) TimerEvent: {}
+[47.321800] (-) TimerEvent: {}
+[47.422403] (-) TimerEvent: {}
+[47.522976] (-) TimerEvent: {}
+[47.623596] (-) TimerEvent: {}
+[47.724219] (-) TimerEvent: {}
+[47.824724] (-) TimerEvent: {}
+[47.925323] (-) TimerEvent: {}
+[48.025900] (-) TimerEvent: {}
+[48.126521] (-) TimerEvent: {}
+[48.227163] (-) TimerEvent: {}
+[48.327785] (-) TimerEvent: {}
+[48.428331] (-) TimerEvent: {}
+[48.528959] (-) TimerEvent: {}
+[48.629607] (-) TimerEvent: {}
+[48.730212] (-) TimerEvent: {}
+[48.830703] (-) TimerEvent: {}
+[48.931274] (-) TimerEvent: {}
+[49.031814] (-) TimerEvent: {}
+[49.132366] (-) TimerEvent: {}
+[49.232950] (-) TimerEvent: {}
+[49.333518] (-) TimerEvent: {}
+[49.434096] (-) TimerEvent: {}
+[49.534673] (-) TimerEvent: {}
+[49.635245] (-) TimerEvent: {}
+[49.735750] (-) TimerEvent: {}
+[49.836330] (-) TimerEvent: {}
+[49.936922] (-) TimerEvent: {}
+[50.037537] (-) TimerEvent: {}
+[50.138162] (-) TimerEvent: {}
+[50.238749] (-) TimerEvent: {}
+[50.339338] (-) TimerEvent: {}
+[50.439918] (-) TimerEvent: {}
+[50.540516] (-) TimerEvent: {}
+[50.641145] (-) TimerEvent: {}
+[50.741728] (-) TimerEvent: {}
+[50.842226] (-) TimerEvent: {}
+[50.942771] (-) TimerEvent: {}
+[51.043271] (-) TimerEvent: {}
+[51.143792] (-) TimerEvent: {}
+[51.244332] (-) TimerEvent: {}
+[51.344895] (-) TimerEvent: {}
+[51.445638] (-) TimerEvent: {}
+[51.546157] (-) TimerEvent: {}
+[51.646650] (-) TimerEvent: {}
+[51.747151] (-) TimerEvent: {}
+[51.847634] (-) TimerEvent: {}
+[51.948128] (-) TimerEvent: {}
+[52.048618] (-) TimerEvent: {}
+[52.149131] (-) TimerEvent: {}
+[52.249618] (-) TimerEvent: {}
+[52.350137] (-) TimerEvent: {}
+[52.450627] (-) TimerEvent: {}
+[52.551134] (-) TimerEvent: {}
+[52.651630] (-) TimerEvent: {}
+[52.752139] (-) TimerEvent: {}
+[52.852630] (-) TimerEvent: {}
+[52.953143] (-) TimerEvent: {}
+[53.053660] (-) TimerEvent: {}
+[53.154161] (-) TimerEvent: {}
+[53.254649] (-) TimerEvent: {}
+[53.355161] (-) TimerEvent: {}
+[53.455576] (-) TimerEvent: {}
+[53.556065] (-) TimerEvent: {}
+[53.656591] (-) TimerEvent: {}
+[53.757095] (-) TimerEvent: {}
+[53.857608] (-) TimerEvent: {}
+[53.958078] (-) TimerEvent: {}
+[54.058567] (-) TimerEvent: {}
+[54.159040] (-) TimerEvent: {}
+[54.259524] (-) TimerEvent: {}
+[54.359990] (-) TimerEvent: {}
+[54.460470] (-) TimerEvent: {}
+[54.560930] (-) TimerEvent: {}
+[54.661404] (-) TimerEvent: {}
+[54.761878] (-) TimerEvent: {}
+[54.862356] (-) TimerEvent: {}
+[54.962766] (-) TimerEvent: {}
+[55.063282] (-) TimerEvent: {}
+[55.163744] (-) TimerEvent: {}
+[55.264213] (-) TimerEvent: {}
+[55.364682] (-) TimerEvent: {}
+[55.465151] (-) TimerEvent: {}
+[55.565609] (-) TimerEvent: {}
+[55.666081] (-) TimerEvent: {}
+[55.766559] (-) TimerEvent: {}
+[55.867026] (-) TimerEvent: {}
+[55.967418] (-) TimerEvent: {}
+[56.067881] (-) TimerEvent: {}
+[56.168363] (-) TimerEvent: {}
+[56.268832] (-) TimerEvent: {}
+[56.369294] (-) TimerEvent: {}
+[56.469760] (-) TimerEvent: {}
+[56.570223] (-) TimerEvent: {}
+[56.670689] (-) TimerEvent: {}
+[56.771168] (-) TimerEvent: {}
+[56.871631] (-) TimerEvent: {}
+[56.972105] (-) TimerEvent: {}
+[57.072606] (-) TimerEvent: {}
+[57.173066] (-) TimerEvent: {}
+[57.273537] (-) TimerEvent: {}
+[57.373997] (-) TimerEvent: {}
+[57.474470] (-) TimerEvent: {}
+[57.574931] (-) TimerEvent: {}
+[57.675406] (-) TimerEvent: {}
+[57.775901] (-) TimerEvent: {}
+[57.876331] (-) TimerEvent: {}
+[57.976792] (-) TimerEvent: {}
+[58.077260] (-) TimerEvent: {}
+[58.177730] (-) TimerEvent: {}
+[58.278204] (-) TimerEvent: {}
+[58.378668] (-) TimerEvent: {}
+[58.479151] (-) TimerEvent: {}
+[58.579625] (-) TimerEvent: {}
+[58.680084] (-) TimerEvent: {}
+[58.780574] (-) TimerEvent: {}
+[58.881062] (-) TimerEvent: {}
+[58.981538] (-) TimerEvent: {}
+[59.082033] (-) TimerEvent: {}
+[59.182492] (-) TimerEvent: {}
+[59.282973] (-) TimerEvent: {}
+[59.383663] (-) TimerEvent: {}
+[59.484140] (-) TimerEvent: {}
+[59.584538] (-) TimerEvent: {}
+[59.685020] (-) TimerEvent: {}
+[59.785507] (-) TimerEvent: {}
+[59.885986] (-) TimerEvent: {}
+[59.986473] (-) TimerEvent: {}
+[60.086944] (-) TimerEvent: {}
+[60.187429] (-) TimerEvent: {}
+[60.287944] (-) TimerEvent: {}
+[60.388517] (-) TimerEvent: {}
+[60.489037] (-) TimerEvent: {}
+[60.589583] (-) TimerEvent: {}
+[60.690104] (-) TimerEvent: {}
+[60.790634] (-) TimerEvent: {}
+[60.891319] (-) TimerEvent: {}
+[60.991826] (-) TimerEvent: {}
+[61.092300] (-) TimerEvent: {}
+[61.192775] (-) TimerEvent: {}
+[61.293243] (-) TimerEvent: {}
+[61.393716] (-) TimerEvent: {}
+[61.494197] (-) TimerEvent: {}
+[61.594662] (-) TimerEvent: {}
+[61.695157] (-) TimerEvent: {}
+[61.795655] (-) TimerEvent: {}
+[61.896236] (-) TimerEvent: {}
+[61.996734] (-) TimerEvent: {}
+[62.097221] (-) TimerEvent: {}
+[62.197716] (-) TimerEvent: {}
+[62.298216] (-) TimerEvent: {}
+[62.398699] (-) TimerEvent: {}
+[62.499191] (-) TimerEvent: {}
+[62.599676] (-) TimerEvent: {}
+[62.700200] (-) TimerEvent: {}
+[62.800763] (-) TimerEvent: {}
+[62.901392] (-) TimerEvent: {}
+[63.001924] (-) TimerEvent: {}
+[63.102397] (-) TimerEvent: {}
+[63.203026] (-) TimerEvent: {}
+[63.303619] (-) TimerEvent: {}
+[63.398720] (ros2_kdl_package) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable ros2_kdl_node\x1b[0m\n'}
+[63.403745] (-) TimerEvent: {}
+[63.504212] (-) TimerEvent: {}
+[63.604708] (-) TimerEvent: {}
+[63.705215] (-) TimerEvent: {}
+[63.805716] (-) TimerEvent: {}
+[63.906213] (-) TimerEvent: {}
+[64.006709] (-) TimerEvent: {}
+[64.107211] (-) TimerEvent: {}
+[64.207720] (-) TimerEvent: {}
+[64.308219] (-) TimerEvent: {}
+[64.408735] (-) TimerEvent: {}
+[64.466399] (ros2_kdl_package) StdoutLine: {'line': b'[100%] Built target ros2_kdl_node\n'}
+[64.484161] (ros2_kdl_package) CommandEnded: {'returncode': 0}
+[64.485488] (ros2_kdl_package) JobProgress: {'identifier': 'ros2_kdl_package', 'progress': 'install'}
+[64.487162] (ros2_kdl_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package'], 'cwd': '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('USER', 'telemaque'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/telemaque'), ('OLDPWD', '/home/telemaque/Robotics_Lab/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'telemaque'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'telemaque'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/telemaque/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/telemaque-Aspire-AV14-51:@/tmp/.ICE-unix/1918,unix/telemaque-Aspire-AV14-51:/tmp/.ICE-unix/1918'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/51cc332e_5493_437b_9d32_0b2f5c497448'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.639QF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description/share/iiwa_description/meshes'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_bringup:/home/telemaque/Robotics_Lab/ros2_ws/install/iiwa_description:/home/telemaque/Robotics_Lab/ros2_ws/install/external_torque_sensor_broadcaster:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_gazebo:/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description:/opt/ros/humble')]), 'shell': False}
+[64.497183] (ros2_kdl_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[64.497970] (ros2_kdl_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[64.498471] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/ros2_kdl_package/ros2_kdl_node\n'}
+[64.508861] (-) TimerEvent: {}
+[64.510505] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/lib/ros2_kdl_package/ros2_kdl_node_example\n'}
+[64.521686] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/package_run_dependencies/ros2_kdl_package\n'}
+[64.532805] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/parent_prefix_path/ros2_kdl_package\n'}
+[64.547012] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/ament_prefix_path.sh\n'}
+[64.559032] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/ament_prefix_path.dsv\n'}
+[64.569927] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/path.sh\n'}
+[64.584758] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/environment/path.dsv\n'}
+[64.597726] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.bash\n'}
+[64.608629] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.sh\n'}
+[64.608914] (-) TimerEvent: {}
+[64.619144] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.zsh\n'}
+[64.630270] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/local_setup.dsv\n'}
+[64.642144] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.dsv\n'}
+[64.655088] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ament_index/resource_index/packages/ros2_kdl_package\n'}
+[64.666948] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/cmake/ros2_kdl_packageConfig.cmake\n'}
+[64.678467] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/cmake/ros2_kdl_packageConfig-version.cmake\n'}
+[64.691243] (ros2_kdl_package) StdoutLine: {'line': b'-- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package/share/ros2_kdl_package/package.xml\n'}
+[64.706468] (ros2_kdl_package) CommandEnded: {'returncode': 0}
+[64.709315] (-) TimerEvent: {}
+[64.722153] (ros2_kdl_package) JobEnded: {'identifier': 'ros2_kdl_package', 'rc': 0}
+[64.722862] (-) EventReactorShutdown: {}

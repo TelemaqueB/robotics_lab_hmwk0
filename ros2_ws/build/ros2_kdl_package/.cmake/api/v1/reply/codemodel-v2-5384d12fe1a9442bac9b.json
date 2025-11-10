@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dd255b1a95b990627532.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_kdl_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_kdl_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_kdl_node-a1add9551d9626aa5846.json",
+					"name" : "ros2_kdl_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_kdl_node_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_kdl_node_example-a85ddc293eed26fb8cbe.json",
+					"name" : "ros2_kdl_node_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_kdl_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_kdl_package_uninstall-5913e902426e5e84cfc2.json",
+					"name" : "ros2_kdl_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-288b2011bdb5ebd7c9a5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package",
+		"source" : "/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

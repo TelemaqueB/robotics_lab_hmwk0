@@ -1,0 +1,12 @@
+In file included from [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:24[m[K:
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/include/ros2_kdl_node.hpp:1:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+    1 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:[m[K In constructor ‘[01m[KIiwa_pub_sub::Iiwa_pub_sub()[m[K’:
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraj_duration_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_duration_t[m[K’?
+  109 |             [01;31m[Ktraj_duration_[m[K = this->get_parameter("traj_duration").as_double();
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_duration_t[m[K
+gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76 : CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:139 : CMakeFiles/ros2_kdl_node.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

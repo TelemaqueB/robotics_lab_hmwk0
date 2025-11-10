@@ -1,0 +1,4 @@
+source;share/armando_gazebo/local_setup.bash
+source;share/armando_gazebo/local_setup.dsv
+source;share/armando_gazebo/local_setup.sh
+source;share/armando_gazebo/local_setup.zsh

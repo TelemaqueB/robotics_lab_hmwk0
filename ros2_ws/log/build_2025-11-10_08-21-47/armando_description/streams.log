@@ -1,0 +1,66 @@
+[0.042s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/armando_description-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description
+[0.183s] -- The C compiler identification is GNU 11.4.0
+[0.331s] -- The CXX compiler identification is GNU 11.4.0
+[0.348s] -- Detecting C compiler ABI info
+[0.512s] -- Detecting C compiler ABI info - done
+[0.538s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.539s] -- Detecting C compile features
+[0.541s] -- Detecting C compile features - done
+[0.550s] -- Detecting CXX compiler ABI info
+[0.768s] -- Detecting CXX compiler ABI info - done
+[0.792s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.792s] -- Detecting CXX compile features
+[0.794s] -- Detecting CXX compile features - done
+[0.800s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.222s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.430s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.498s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.721s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.723s] -- Added test 'lint_cmake' to check CMake code style
+[1.724s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.727s] -- Added test 'xmllint' to check XML markup files
+[1.730s] -- Configuring done
+[1.735s] -- Generating done
+[1.738s] -- Build files have been written to: /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description
+[1.748s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/armando_description-main -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/armando_description
+[1.752s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description -- -j12 -l12
+[1.838s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description -- -j12 -l12
+[1.864s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description
+[1.878s] -- Install configuration: ""
+[1.879s] -- Execute custom install script
+[1.880s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//launch/armando_display.launch.py
+[1.904s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//urdf/armando.urdf.xacro
+[1.931s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//urdf/armando_hardware_interface.xacro
+[1.956s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_legs_arbotix_m.stl
+[1.978s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_link.stl
+[2.001s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn.stl
+[2.019s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table.stl
+[2.039s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_bot.stl
+[2.058s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_rot.stl
+[2.076s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/base_turn_table_spacer.stl
+[2.094s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/dyn.stl
+[2.116s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/f4_n_f3.stl
+[2.135s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/inertia.py
+[2.154s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/servo_hinge_flange.stl
+[2.173s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer.stl
+[2.192s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer_base.stl
+[2.211s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/the_crawer_lever.stl
+[2.230s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/wrist.stl
+[2.248s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//meshes/wrist_rotate.stl
+[2.269s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description//config/armando.rviz
+[2.288s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/package_run_dependencies/armando_description
+[2.311s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/parent_prefix_path/armando_description
+[2.330s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/ament_prefix_path.sh
+[2.349s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/ament_prefix_path.dsv
+[2.373s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/path.sh
+[2.392s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/environment/path.dsv
+[2.411s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.bash
+[2.435s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.sh
+[2.461s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.zsh
+[2.480s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/local_setup.dsv
+[2.499s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.dsv
+[2.518s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/ament_index/resource_index/packages/armando_description
+[2.545s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/cmake/armando_descriptionConfig.cmake
+[2.565s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/cmake/armando_descriptionConfig-version.cmake
+[2.586s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_description/share/armando_description/package.xml
+[2.617s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_description

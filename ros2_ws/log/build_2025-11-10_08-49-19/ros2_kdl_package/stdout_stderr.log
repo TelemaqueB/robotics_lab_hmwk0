@@ -1,0 +1,64 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package
+[35m[1mConsolidate compiler generated dependencies of target ros2_kdl_node_example[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_kdl_node[0m
+[ 28%] Built target ros2_kdl_node_example
+[ 42%] [32mBuilding CXX object CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o[0m
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:[m[K In constructor ‘[01m[KIiwa_pub_sub::Iiwa_pub_sub()[m[K’:
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:108:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktraj_duration_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_duration_t[m[K’?
+  108 |             [01;31m[Ktraj_duration_[m[K = this->get_parameter("traj_duration").as_double();
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |             [32m[Krmw_duration_t[m[K
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:109:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_duration_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_duration_t[m[K’?
+  109 |             [01;31m[Kacc_duration_[m[K = this->get_parameter("acc_duration").as_double();
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Krcl_duration_t[m[K
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:110:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_time_[m[K’ was not declared in this scope
+  110 |             [01;31m[Ktotal_time_[m[K = this->get_parameter("total_time").as_double();
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:111:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_len_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrajectory_point[m[K’?
+  111 |             [01;31m[Ktrajectory_len_[m[K = this->get_parameter("trajectory_len").as_int();
+      |             [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |             [32m[Ktrajectory_point[m[K
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:112:13:[m[K [01;31m[Kerror: [m[K‘[01m[KKp_[m[K’ was not declared in this scope; did you mean ‘[01m[Kp_[m[K’?
+  112 |             [01;31m[KKp_[m[K = this->get_parameter("Kp").as_double();
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kp_[m[K
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_position_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_positions_[m[K’?
+  114 |             [01;31m[Kend_position_[m[K(0) = this->get_parameter("end_position_x").as_double();
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[Kjoint_positions_[m[K
+gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76 : CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:139 : CMakeFiles/ros2_kdl_node.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

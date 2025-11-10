@@ -1,0 +1,1 @@
+/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package/ament_cmake_core/ros2_kdl_packageConfig-version.cmake

@@ -1,0 +1,40 @@
+[0.059s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller -- -j12 -l12
+[0.215s] [ 50%] [32mBuilding CXX object CMakeFiles/impedance_controller.dir/src/impedance_controller.cpp.o[0m
+[5.157s] In file included from [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller/include/impedance_controller/impedance_controller.hpp:27[m[K,
+[5.158s]                  from [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_iiwa/iiwa_controllers/impedance_controller/src/impedance_controller.cpp:15[m[K:
+[5.158s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[5.158s]    22 | lease update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[5.158s]       |                                                             [01;36m[K^[m[K
+[5.158s] 
+[20.119s] [100%] [32m[1mLinking CXX shared library libimpedance_controller.so[0m
+[21.397s] [100%] Built target impedance_controller
+[21.436s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller -- -j12 -l12
+[21.443s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller
+[21.471s] -- Install configuration: ""
+[21.473s] -- Execute custom install script
+[21.474s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller//impedance_plugin.xml
+[21.506s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/include/impedance_controller/impedance_controller.hpp
+[21.537s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/include/impedance_controller/visibility_control.h
+[21.565s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/lib/libimpedance_controller.so
+[21.596s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.sh
+[21.625s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/library_path.dsv
+[21.655s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/package_run_dependencies/impedance_controller
+[21.685s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/parent_prefix_path/impedance_controller
+[21.714s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.sh
+[21.738s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/ament_prefix_path.dsv
+[21.763s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.sh
+[21.790s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/environment/path.dsv
+[21.816s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.bash
+[21.843s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.sh
+[21.870s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.zsh
+[21.897s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/local_setup.dsv
+[21.922s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.dsv
+[21.945s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/packages/impedance_controller
+[21.969s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/impedance_controller
+[21.994s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.017s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.041s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[22.065s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig.cmake
+[22.091s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/cmake/impedance_controllerConfig-version.cmake
+[22.119s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/impedance_controller/share/impedance_controller/package.xml
+[22.153s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/impedance_controller

@@ -1,0 +1,26 @@
+[0.046s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target joint_position_publisher[0m
+[0.204s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_position_publisher.dir/src/joint_position_publisher.cpp.o[0m
+[25.041s] [100%] [32m[1mLinking CXX executable joint_position_publisher[0m
+[26.186s] [100%] Built target joint_position_publisher
+[26.226s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control -- -j12 -l12
+[26.230s] Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control
+[26.250s] -- Install configuration: ""
+[26.252s] -- Execute custom install script
+[26.253s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/lib/armando_control/joint_position_publisher
+[26.276s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/package_run_dependencies/armando_control
+[26.299s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/parent_prefix_path/armando_control
+[26.324s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.sh
+[26.352s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/ament_prefix_path.dsv
+[26.380s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.sh
+[26.405s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/environment/path.dsv
+[26.427s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.bash
+[26.453s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.sh
+[26.476s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.zsh
+[26.501s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/local_setup.dsv
+[26.523s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.dsv
+[26.548s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/ament_index/resource_index/packages/armando_control
+[26.570s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig.cmake
+[26.592s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/cmake/armando_controlConfig-version.cmake
+[26.615s] -- Symlinking: /home/telemaque/Robotics_Lab/ros2_ws/install/armando_control/share/armando_control/package.xml
+[26.645s] Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/armando_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/telemaque/Robotics_Lab/ros2_ws/build/armando_control

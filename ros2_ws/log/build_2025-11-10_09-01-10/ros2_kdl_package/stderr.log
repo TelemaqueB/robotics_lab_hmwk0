@@ -1,0 +1,10 @@
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:30:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass Iiwa_pub_sub[m[K’
+   30 | class [01;31m[KIiwa_pub_sub[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/src/ros2_kdl_node.cpp:24[m[K:
+[01m[K/home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package/include/ros2_kdl_node.hpp:7:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass Iiwa_pub_sub[m[K’
+    7 | class [01;36m[KIiwa_pub_sub[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_kdl_node.dir/build.make:76 : CMakeFiles/ros2_kdl_node.dir/src/ros2_kdl_node.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:139 : CMakeFiles/ros2_kdl_node.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

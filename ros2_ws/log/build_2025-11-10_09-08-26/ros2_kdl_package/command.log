@@ -1,0 +1,2 @@
+Invoking command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package
+Invoked command in '/home/telemaque/Robotics_Lab/ros2_ws/build/ros2_kdl_package' returned '1': /usr/bin/cmake /home/telemaque/Robotics_Lab/ros2_ws/src/ros2_kdl_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/telemaque/Robotics_Lab/ros2_ws/install/ros2_kdl_package
